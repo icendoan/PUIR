@@ -376,7 +376,7 @@ acquire_core_state = {
 	
 	construction_speed = 0.8
 	
-	badboy_factor = 0
+	badboy_factor = 2
 	prestige_factor = 5
 	peace_cost_factor = 0.7
 	penalty_factor = 1
@@ -426,7 +426,7 @@ annex_core_country = {
 	months = 12
 	crisis = no
 
-	badboy_factor = 0
+	badboy_factor = 8
 	prestige_factor = 5
 	peace_cost_factor = 0.7
 	penalty_factor = 1

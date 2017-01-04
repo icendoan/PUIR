@@ -1,0 +1,25 @@
+political_decisions = {
+	initialize_africa = {
+		
+		potential = {
+			tag = SWI
+			NOT = {
+				has_country_flag = africa_int
+			}
+		}
+		
+		allow = {
+			
+		}
+		
+		effect = {
+			set_country_flag = africa_int
+			OYO = { add_country_modifier = { name = colonial_65	duration = -1 } }
+			BEN = { add_country_modifier = { name = colonial_65	duration = -1 }	}
+			SOK = { add_country_modifier = { name = colonial_65	duration = -1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

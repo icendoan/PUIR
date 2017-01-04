@@ -1099,6 +1099,10 @@ make_puppet = {
 		is_greater_power = no
 		is_vassal = no
 	}
+
+	allowed_countries = {
+		from = { NOT = { tag = CHI }}
+	}
 	
 	# THIS - us
 	# FROM - country scope is possible match?

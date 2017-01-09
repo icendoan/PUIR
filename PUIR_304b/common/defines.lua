@@ -199,7 +199,7 @@ diplomacy = {
 	PEACE_COST_ADD_TO_SPHERE = 1,
 	PEACE_COST_RELEASE_PUPPET = 1,
 	PEACE_COST_MAKE_PUPPET = 85,
-	PEACE_COST_DISARMAMENT = 1,
+	PEACE_COST_DISARMAMENT = 2,
 	PEACE_COST_DESTROY_FORTS = 1,
 	PEACE_COST_DESTROY_NAVAL_BASES = 1,
 	PEACE_COST_REPARATIONS = 1,
@@ -476,10 +476,10 @@ diplomacy = {
 	MAKE_CB_RELATION_ON_ACCEPT = 0,
 	
 	DISARMAMENT_ARMY_HIT = 0.5,
-	REPARATIONS_TAX_HIT = 0.25,
+	REPARATIONS_TAX_HIT = 0.30,
 	PRESTIGE_REDUCTION_BASE = 25,
 	PRESTIGE_REDUCTION = 0.1, -- Base value + % of recipient's prestige
-	REPARATIONS_YEARS = 5,
+	REPARATIONS_YEARS = 2,
 	
 	-- No longer used:
 	-- PO_CONCEDE_DEFEAT_PRESTIGE = 1,
@@ -611,7 +611,7 @@ diplomacy = {
 	TWS_BATTLE_MIN_COUNT = 5, -- At least X battles before the aspect of wins will count
 	TWS_BATTLE_MAX_ASPECT = 8.0, -- Max allowed battle wins aspect for TWS
 	LARGE_POPULATION_INFLUENCE_PENALTY = -0.4,
-	LONE_BACKER_PRESTIGE_FACTOR = 0.05 -- prestige boost for being only defender backer in crisis
+	LONE_BACKER_PRESTIGE_FACTOR = 0.50 -- prestige boost for being only defender backer in crisis
 },  
 
 
@@ -729,7 +729,7 @@ ai =
 	PEACE_ALLY_FORCE_BALANCE_MULT = 0, -- Multiplies PEACE_FORCE_BALANCE_FACTOR for allies in a war
 	AGGRESSION_BASE = 5, -- general AI aggression
 	AGGRESSION_UNCIV_BONUS = 10, -- additional AI civ aggression against uncivs
-	FLEET_SIZE = 30, -- AI will attempt to keep fleets of roughly this size (fewer fleets generally results in more competent naval AI)
+	FLEET_SIZE = 50, -- AI will attempt to keep fleets of roughly this size (fewer fleets generally results in more competent naval AI)
 	MIN_FLEETS = 1, -- Minimum amount of main fleets the AI will divide its navy into (does not include specialized fleets such as blockades and naval invasions)
 	MAX_FLEETS = 10, -- Maximal amount of main fleets the AI will divide its navy into (does not include specialized fleets such as blockades and naval invasions)
 	MONTHS_BEFORE_DISBAND = 6, -- Months from start date before AI will disband armies/navies (to avoid disbands because of early economic turmoil)

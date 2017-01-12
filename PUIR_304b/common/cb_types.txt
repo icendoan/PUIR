@@ -164,6 +164,7 @@ conquest = {
 	crisis = no
 	
 	can_use = {
+		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
@@ -296,6 +297,7 @@ add_to_sphere = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		this = { is_greater_power = yes }
 		is_greater_power = no
@@ -341,6 +343,7 @@ take_from_sphere = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		this = { is_greater_power = yes }
 		is_greater_power = yes
@@ -392,6 +395,7 @@ acquire_core_state = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
@@ -442,6 +446,7 @@ annex_core_country = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		any_owned_province = {
 			is_core = THIS
@@ -491,6 +496,7 @@ acquire_substate_region = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		num_of_substates = 1 # if has any substate
 		any_substate = {
@@ -547,6 +553,7 @@ acquire_state = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		NOT = { 
 			OR = { 
@@ -634,6 +641,7 @@ place_in_the_sun = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		NOT = { 
 			OR = { 
@@ -742,6 +750,7 @@ cut_down_to_size = {
 	war_name = WAR_NAME
 	
 	can_use = {
+		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		is_disarmed = no
 	}
@@ -943,6 +952,7 @@ liberate_country = {
 	
 	
 	can_use = {
+		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		NOT = { 
 			OR = {
@@ -1032,6 +1042,7 @@ dismantle_forts = {
 	
 	
 	can_use = {
+		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 	}
 
@@ -1083,6 +1094,7 @@ release_puppet = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		num_of_vassals_no_substates = 1
 	}
@@ -1131,6 +1143,7 @@ make_puppet = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		NOT = { number_of_states = 10 }
 		is_greater_power = no
@@ -1246,6 +1259,7 @@ humiliate = {
 	war_name = WAR_HUMILIATE_NAME
 
 	can_use = {
+		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		has_recently_lost_war = no
 	}	
@@ -1283,6 +1297,7 @@ demand_concession_casus_belli = {
 	always = no
 
 	can_use = {
+		this = { NOT = { badboy = 1 } }
 		THIS = { NOT = {
 				OR = {
 					has_country_modifier = neutrality
@@ -1354,6 +1369,7 @@ establish_protectorate_casus_belli = {
 	always = no
 	
 	can_use = {
+		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			civilized = yes
@@ -1430,6 +1446,7 @@ unification_humiliate_cb = {
 	always = yes
 	
 	can_use = {
+		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			culture_has_union_tag = yes
@@ -1609,6 +1626,7 @@ unification_annex_casus_belli = {
 	always = yes
 	
 	can_use = {
+		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			culture_has_union_tag = yes
@@ -1876,6 +1894,7 @@ conquest_low = {
 	crisis = no
 	
 	can_use = {
+		this = { NOT = { badboy = 1 } }
 		NOT = {	total_pops = 400000 }
 		NOT = { is_our_vassal = THIS }
 		NOT = { 
@@ -1967,6 +1986,7 @@ take_capital = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		NOT = { 
 			OR = { 
@@ -2057,6 +2077,7 @@ acquire_treaty_port = {
 	always = no
 
 	can_use = {
+		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -2282,6 +2303,7 @@ establish_colonial_protectorate_casus_belli = {
 	always = no
 	
 	can_use = {
+		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		NOT = { 
 			OR = { 
@@ -2375,6 +2397,7 @@ demand_colonial_concession_casus_belli = {
 	always = no
 
 	can_use = {
+		this = { NOT = { badboy = 1 } }
 		OR = {
 					AND = { year = 1840
 							has_country_modifier = colonial_40

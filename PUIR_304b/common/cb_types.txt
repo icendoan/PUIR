@@ -756,7 +756,7 @@ cut_down_to_size = {
 }
 
 # Cut Down to size (Reperations)
-cut_down_to_size = {
+demand_reperations = {
 	sprite_index = 13
 	is_triggered_only = yes
 	months = 12

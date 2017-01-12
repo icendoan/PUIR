@@ -1,0 +1,4 @@
+demand_reperations_desc;Force another §Ycountry§W to pay reparations to us;Obliger un autre §Ypays§W à se désarmer et à nous verser des compensations;Zwischen Sie ein anderes §YLand§W zur Abrüstung und zu Reparationszahlungen an uns.;;Obligar a otro §Ypaís§W a desarmarse y que nos indemnice;;;;;;;;;x
+demand_reperations;Demand Reperations;Réduire;Weltgeltung reduzieren;;Reducir su tamaño;;;;;;;;;x
+demand_reperations_short;Make $RECIPIENT$ pay reperations;Réduire $RECIPIENT$;Weltgeltung von $RECIPIENT$ reduzieren;;Reducir el tamaño de $RECIPIENT$ ;;;;;;;;;x
+demand_reperations_setup;Make $RECIPIENT$ pay reperations;Réduire $RECIPIENT$;Reduzieren Sie die Weltgeltung von $RECIPIENT$.;;Reducir el tamaño de $RECIPIENT$ ;;;;;;;;;x

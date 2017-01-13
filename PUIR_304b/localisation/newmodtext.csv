@@ -1,4 +1,11 @@
-demand_reperations_desc;Force another §Ycountry§W to pay reparations to us;Obliger un autre §Ypays§W à se désarmer et à nous verser des compensations;Zwischen Sie ein anderes §YLand§W zur Abrüstung und zu Reparationszahlungen an uns.;;Obligar a otro §Ypaís§W a desarmarse y que nos indemnice;;;;;;;;;x
-demand_reperations;Demand Reparations;Réduire;Weltgeltung reduzieren;;Reducir su tamaño;;;;;;;;;x
-demand_reperations_short;Make $RECIPIENT$ pay reparations;Réduire $RECIPIENT$;Weltgeltung von $RECIPIENT$ reduzieren;;Reducir el tamaño de $RECIPIENT$ ;;;;;;;;;x
-demand_reperations_setup;Make $RECIPIENT$ pay reparations;Réduire $RECIPIENT$;Reduzieren Sie die Weltgeltung von $RECIPIENT$.;;Reducir el tamaño de $RECIPIENT$ ;;;;;;;;;x
+demand_reperations_desc;Force another §Ycountry§W to pay reparations to us;;;;;;;;;;;;;x
+demand_reperations;Demand Reparations;;;;;;;;;;;;;x
+demand_reperations_short;Make $RECIPIENT$ pay reparations;;;;;;;;;;;;;x
+demand_reperations_setup;Make $RECIPIENT$ pay reparations;;;;;;;;;;;;;x
+EVTNAME40000;The Shah visits Europe;;;;;;;;;;;;;x
+EVTDESC40000;The Shah, after witnessing a military demostration by a european power, have decided to visit the continent. One wonders what effect this will have on him;;;;;;;;;;;;;x
+EVTOPTA40000;Such progress!;;;;;;;;;;;;;x
+EVTNAME40001;Báb Execution;;;;;;;;;;;;;x
+EVTDESC40001;The Báb, leader of the babist movement has for some time been in our possesion. Due to recent unrest among the followers of Babiism, powerfull figures in our court wish to execute him. This will hopefully restore unity to the empire, but might cause short term turmoil.;;;;;;;;;;;;;x
+EVTOPTA40001;Execute him!;;;;;;;;;;;;;x
+EVTOPTB40001;Let him live;;;;;;;;;;;;;x

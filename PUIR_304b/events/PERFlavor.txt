@@ -1,0 +1,112 @@
+#Shah visits europe
+country_event = {
+
+	id = 40000
+
+	trigger = {
+		tag = PER
+		year = 1860
+		NOT = {
+			year = 1890
+		}
+		OR = {
+			government = hms_government
+			government = prussian_constitutionalism
+			government = absolute_monarchy
+		}
+		#civilized = no
+	}
+	
+	#Shah visited thrice
+	#fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 120
+
+		modifier = {
+			factor = 0.50 #increase likelihood to happen
+			NOT = {
+				year = 1880
+			}
+		}
+		modifier = {
+			factor = 2.50 #decrease likelihood to happen
+			year = 1880
+		}
+	}
+
+	title = "EVTNAME40000"
+	desc = "EVTDESC40000"
+	picture = "Worldsfair"
+
+	option = {
+		name = "EVTOPTA40000" 
+		prestige = 5
+	}
+}
+
+#Execute Báb
+country_event = {
+
+	id = 40001
+	#news = yes
+	#news_desc_long = "EVTDESC36217_NEWS_LONG"
+	#news_desc_medium = "EVTDESC36217_NEWS_MEDIUM"
+	#news_desc_short = "EVTDESC36217_NEWS_SHORT"
+
+	trigger = {
+		tag = PER
+		year = 1845
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 120
+
+		modifier = {
+			factor = 0.10 #increase likelihood to happen
+			year = 1850
+		}
+	}
+
+	title = "EVTNAME40001"
+	desc = "EVTDESC40001"
+	picture = "Execution"
+
+	option = {
+		name = "EVTOPTA40001" 
+		
+		prestige = -5
+		plurality = 5
+		any_pop = {
+			limit = {
+				religion = shiite
+				culture = persian
+				consciousness = 2
+			}
+			militancy = 5
+		}
+	}
+
+
+	option = {
+		name = "EVTOPTB40001" 
+		
+		any_pop = {
+			limit = {
+				religion = shiite
+				culture = persian
+				consciousness = 2
+			}
+			militancy = -2
+		}
+		any_pop = {
+			limit = {
+				religion = shiite
+				culture = persian
+			}
+			consciousness = 2
+		}
+	}
+}

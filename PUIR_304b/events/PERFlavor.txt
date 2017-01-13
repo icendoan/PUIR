@@ -26,7 +26,7 @@ country_event = {
 		modifier = {
 			factor = 0.50 #increase likelihood to happen
 			NOT = {
-				year = 1880
+				year = 1868
 			}
 		}
 		modifier = {
@@ -45,7 +45,7 @@ country_event = {
 	}
 }
 
-#Execute Báb
+#Execute BÃ¡b
 country_event = {
 
 	id = 40001

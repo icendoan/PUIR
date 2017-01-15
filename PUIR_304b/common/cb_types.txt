@@ -52,6 +52,7 @@ acquire_substate_region
 place_in_the_sun
 demand_for_allies
 colonial_competition
+demand_reperations 
 cut_down_to_size_boxer
 cut_down_to_size 
 free_peoples

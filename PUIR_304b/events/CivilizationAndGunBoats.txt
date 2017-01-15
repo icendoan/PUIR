@@ -1369,7 +1369,7 @@ country_event = {
 			target = FROM
 			call_ally = yes
 			attacker_goal = {
-				casus_belli = cut_down_to_size
+				casus_belli = demand_reperations
 			}
 		}
 	}
@@ -1528,7 +1528,7 @@ country_event = {
 			target = FROM
 			call_ally = yes
 			attacker_goal = {
-				casus_belli = cut_down_to_size
+				casus_belli = demand_reperations
 			}
 		}
 	}
@@ -1843,7 +1843,7 @@ country_event = {
 		prestige = -5
 		casus_belli = {
 			target = FROM
-			type = cut_down_to_size
+			type = demand_reperations
 			months = 12
 		}
 	}

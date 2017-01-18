@@ -27,7 +27,7 @@ guard = {
 	
 	supply_consumption = 1.0
 	supply_cost = {			#total cost 2.72
-		small_arms = 0.08 	#0.5
+		small_arms = 0.02 	#0.5
 		canned_food = 0.07 	#0.7
 		ammunition = 0.226 	#1.13
 		luxury_clothes = 0.013  #0.39

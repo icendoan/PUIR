@@ -18,15 +18,15 @@ artillery = {
 	#Building Costs
 	build_time = 120
 	build_cost = {
-		artillery = 40 #10
+		artillery = 50 #10
 		canned_food = 10
 		#liquor = 10
 		#wine = 10
 	}
 	
 	supply_consumption = 1.0
-	supply_cost = {		#Total Cost: 6.15 
-		artillery = 0.13 #5.2
+	supply_cost = {		#Total Cost: 6.35 
+		artillery = 0.11 #5.5
 		canned_food = 0.06 #0.6
 		ammunition = 0.05 #0.25
 	}

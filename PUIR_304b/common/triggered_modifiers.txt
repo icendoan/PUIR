@@ -407,3 +407,24 @@ classless_society_modifier = {
 	poor_income_modifier = 0.2
 	icon = 17 
 }
+
+Save_The_Nation  = {
+	trigger = {
+		ai = no
+		revanchism = 0.20
+		NOT = { total_pops = 5000000 } #5 million POPs/20 million population
+		#OR = {
+		#	war_policy = jingoism
+		#	war_policy = pro_military
+		#}
+	}
+
+	global_assimilation_rate = 0.05
+	suppression_points_modifier = 1
+
+	land_organisation = 0.05
+	mobilisation_size = 0.05
+	supply_consumption = -0.2
+	org_regain = 0.2
+	icon = 16
+}

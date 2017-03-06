@@ -179,7 +179,7 @@ political_decisions = {
 		}
 		
 		allow = {
-			average_consciousness = 2
+			average_consciousness = 1.5
 		}
 		
 		effect = {

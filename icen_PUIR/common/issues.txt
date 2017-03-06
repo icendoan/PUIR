@@ -4,16 +4,19 @@
 party_issues = {
 	trade_policy = {
 		protectionism = {
+			supply_consumption = -0.05  #make nation more viable in war
 			max_tariff = 0.75 #1
 			min_tariff = -0.25
 		}
 		free_trade = {
+			global_immigrant_attract = 0.1  #10%
 			max_tariff = 0.25
 			min_tariff = -1
 		}
 	}
 	economic_policy = {
 		laissez_faire = {
+			global_immigrant_attract = 0.1  #10% , go where my stuff wont be stolen by the state
 			max_tax = 0.6
 			factory_owner_cost = 0.3
 			factory_output = 0.05
@@ -126,19 +129,22 @@ party_issues = {
 	citizenship_policy = {
 		residency = {
 			rules = { primary_culture_voting = yes }
-			global_assimilation_rate = -0.25
+			global_assimilation_rate = 0.30  #you need to assimilate to get the vote
 		}
 		limited_citizenship = {
 			rules = { culture_voting = yes }
+			global_immigrant_attract = 0.05  #5%
 			global_assimilation_rate = 0.10
 		}
 		full_citizenship = {
 			rules = { all_voting = yes }
-			global_assimilation_rate = 0.25
+			global_immigrant_attract = 0.2  #20% , go where I can vote
+			global_assimilation_rate = -0.25 #no benifits to assimilate?
 		}
 	}
 	war_policy = {
 		jingoism = {
+			global_immigrant_attract = -0.15  #-15% , I don,t want to be drafted
 			max_military_spending = 1.0
 			supply_consumption = 0.1
 			war_exhaustion_effect = 0.5
@@ -149,6 +155,7 @@ party_issues = {
 			reinforce_speed = 0.25
 		}
 		pro_military = {
+			global_immigrant_attract = -0.1  #-10% , I don,t want to be drafted
 			max_military_spending = 1.0
 			war_exhaustion_effect = 0.7
 			cb_generation_speed_modifier = 0.2

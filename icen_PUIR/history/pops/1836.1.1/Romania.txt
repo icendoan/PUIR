@@ -696,7 +696,7 @@
 		culture = hungarian
 		religion = protestant
 		size = 100      
-	}}
+	}
 
 	farmers = {
 		culture = hungarian

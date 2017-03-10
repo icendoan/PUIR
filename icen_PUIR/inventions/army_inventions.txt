@@ -525,7 +525,7 @@ tank_exploits = {
 		tank = {
 			attack = 2
 			defence = 4
-			supply_consumption = 0.2
+			#supply_consumption = 0.2
 			siege = 1				
 		}	
 	}

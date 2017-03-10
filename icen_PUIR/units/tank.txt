@@ -40,6 +40,6 @@ tank = {
 	discipline = 1
 	support = 0.0
 	maneuver = 1
-	siege = 1
+	siege = 2
 	
 }

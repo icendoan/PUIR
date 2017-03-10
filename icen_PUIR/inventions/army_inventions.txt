@@ -1024,7 +1024,7 @@ tankette = {
 			attack = 2
 			defence = 1
 			reconnaissance = 0.5
-			supply_consumption = 0.05
+			#supply_consumption = 0.05
 		}
 	}
 }
@@ -1045,7 +1045,7 @@ light_tank = {
 		tank = {
 			attack = 3
 			maximum_speed = 1
-			supply_consumption = 0.1
+			#supply_consumption = 0.1
 		}
 	}
 }
@@ -1070,7 +1070,7 @@ armoured_cars = {
 		tank = {
 			attack = 2
 			reconnaissance = 1
-			supply_consumption = 0.05
+			#supply_consumption = 0.05
 		}
 	}
 }

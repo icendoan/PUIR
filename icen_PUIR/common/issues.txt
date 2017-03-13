@@ -129,6 +129,7 @@ party_issues = {
 		residency = {
 			rules = { primary_culture_voting = yes }
 			global_assimilation_rate = 0.25  #you need to assimilate to get the vote
+			global_immigrant_attract = -0.02  #might just leave instead
 		}
 		limited_citizenship = {
 			rules = { culture_voting = yes }

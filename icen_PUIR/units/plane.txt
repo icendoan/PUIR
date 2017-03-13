@@ -37,9 +37,9 @@ plane = {
 
 	#Land Abilties
 	reconnaissance = 4
-	attack = 0 #1
+	attack = 1
 	defence = 0
 	discipline = 0.1
-	support = 2
+	support = 3
 	maneuver = 2
 }

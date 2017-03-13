@@ -4,7 +4,6 @@
 party_issues = {
 	trade_policy = {
 		protectionism = {
-			supply_consumption = -0.05  #make nation more viable in war
 			max_tariff = 0.75 #1
 			min_tariff = -0.25
 		}
@@ -129,7 +128,7 @@ party_issues = {
 	citizenship_policy = {
 		residency = {
 			rules = { primary_culture_voting = yes }
-			global_assimilation_rate = 0.30  #you need to assimilate to get the vote
+			global_assimilation_rate = 0.25  #you need to assimilate to get the vote
 		}
 		limited_citizenship = {
 			rules = { culture_voting = yes }
@@ -138,8 +137,8 @@ party_issues = {
 		}
 		full_citizenship = {
 			rules = { all_voting = yes }
-			global_immigrant_attract = 0.02  #2% , go where I can vote
-			global_assimilation_rate = -0.25 #no benifits to assimilate?
+			global_immigrant_attract = 0.03  #3% , go where I can vote
+			global_assimilation_rate = -0.10 #no benifits to assimilate?
 		}
 	}
 	war_policy = {

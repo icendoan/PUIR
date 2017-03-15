@@ -9,3 +9,6 @@ EVTNAME40001;Báb Execution;;;;;;;;;;;;;x
 EVTDESC40001;The Báb, leader of the Babist movement has for some time been in our possession. Due to recent unrest among the followers of Babism, powerful figures in our court wish to execute him. This will hopefully restore unity to the empire, but might cause short term turmoil.;;;;;;;;;;;;;x
 EVTOPTA40001;Execute him!;;;;;;;;;;;;;x
 EVTOPTB40001;Let him live;;;;;;;;;;;;;x
+ +demand_reperations;Demand Reperations;;;;;;;;;;;;;x
+ +demand_reperations_short;Make $RECIPIENT$ pay reperations;;;;;;;;;;;;;x
+ +demand_reperations_setup;Make $RECIPIENT$ pay reperations;;;;;;;;;;;;;x

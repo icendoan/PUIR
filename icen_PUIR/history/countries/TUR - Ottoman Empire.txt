@@ -2,6 +2,7 @@ capital = 860
 primary_culture = turkish
 culture = kurdish
 culture = bosniak
+culture = albanian
 religion = sunni
 government = absolute_monarchy
 plurality = 25.0

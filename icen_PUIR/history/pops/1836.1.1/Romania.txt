@@ -705,43 +705,43 @@
 	}
 
 	aristocrats = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 350   
 	}
 
 	bureaucrats = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 250  
 	}
 
 	officers = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 100 
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 80    
 	}
 
 	artisans = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 850
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 50     
 	}
 
 	farmers = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 3320   
 	}
@@ -857,31 +857,31 @@
 	}
 
 	aristocrats = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 350  
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 50    
 	}
 
 	artisans = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 350
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 75     
 	}
 
 	farmers = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 6175   
 	}
@@ -997,25 +997,25 @@
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 25    
 	}
 
 	artisans = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 100
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 25     
 	}
 
 	farmers = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 1850   
 	}
@@ -1137,31 +1137,31 @@
 	}
 
 	aristocrats = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 950  
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 225    
 	}
 
 	artisans = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 1250
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 250     
 	}
 
 	farmers = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 21325
 	}
@@ -1277,31 +1277,31 @@
 	}
 
 	aristocrats = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 350  
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 75    
 	}
 
 	artisans = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 2400
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 100     
 	}
 
 	farmers = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 6075   
 	}
@@ -1417,25 +1417,25 @@
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 50    
 	}
 
 	artisans = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 25     
 	}
 
 	farmers = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 1775    
 	}
@@ -1551,31 +1551,31 @@
 	}
 
 	aristocrats = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 400  
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 75    
 	}
 
 	artisans = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 425
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 75     
 	}
 
 	farmers = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 7025  
 	}
@@ -1691,31 +1691,31 @@
 	}
 
 	aristocrats = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 200  
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 50     
 	}
 
 	artisans = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 350
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 50      
 	}
 
 	farmers = {
-		culture = north_german
+		culture = south_german #Transylvanian. Saxons
 		religion = protestant
 		size = 5350   
 	}

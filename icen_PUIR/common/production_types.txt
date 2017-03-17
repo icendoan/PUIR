@@ -35,7 +35,7 @@ factory_template = {
 
 cheap_factory_template = {
 	efficiency = {
-		cement = 0.25 #if no cement, work at 75% efficiency #cost = £4/level
+		cement = 0.25 #if no cement, work at 75% efficiency #cost = Â£4/level
 		
 	}
 	
@@ -194,7 +194,7 @@ synthetics_factory_template = {
 
 cheap_military_factory_template = {
 	efficiency = {
-		cement = 0.25 #if no cement, work at 75% efficiency #cost = £4/level
+		cement = 0.25 #if no cement, work at 75% efficiency #cost = Â£4/level
 		
 	}
 	
@@ -1123,7 +1123,7 @@ artisan_machine_parts = {
 		coal = 5		#11.5  total input+maint = 66
 	}
 	output_goods = machine_parts 
-	value = 2			#73
+	value = 2.5			#91
 	
 	owner = {
 		poptype = artisan 

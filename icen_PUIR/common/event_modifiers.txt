@@ -181,6 +181,8 @@ muhammad_alis_reforms = {
 ##### SUFFRAGETTE MOVEMENTS #####
 
 female_suffrage = {
+	global_immigrant_attract = 0.1	#10%
+	global_assimilation_rate = 0.1  #10%
 	poor_vote = 0.05
 	middle_vote = 0.02
 	rich_vote = -0.01

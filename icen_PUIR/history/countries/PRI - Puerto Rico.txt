@@ -9,6 +9,7 @@ plurality = 25
 nationalvalue = nv_liberty
 literacy = 0.15
 civilized = yes
+is_releasable_vassal = no	#In accordance with group rules
 
 # Political reforms
 slavery = no_slavery

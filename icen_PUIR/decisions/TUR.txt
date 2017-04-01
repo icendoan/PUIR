@@ -14,6 +14,7 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = tanzimat_reforms_enacted
+			political_reform = low_schools
 			add_country_modifier = {
 				name = tanzimat_era
 				duration = 14600
@@ -161,6 +162,7 @@ political_decisions = {
 			prestige = -50
 			badboy = -10
 			remove_accepted_culture = bosniak
+			remove_accepted_culture = albanian
 			add_accepted_culture = mashriqi
 			add_accepted_culture = bedouin
 			add_accepted_culture = azerbaijani

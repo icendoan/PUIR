@@ -1555,8 +1555,8 @@ early_interwar_fighters = {
 	}
 	effect = {
 		plane = {
-			attack = 0.25
-			defence = 2
+			attack = 2
+			defence = 0.25
 			supply_consumption = 0.025
 		}
 	}
@@ -1576,8 +1576,8 @@ late_interwar_fighters = {
 	}
 	effect = {
 		plane = {
-			attack = 0.25
-			defence = 2
+			attack = 2
+			defence = 0.25
 			supply_consumption = 0.025
 		}
 	}
@@ -1601,7 +1601,7 @@ t_air_superiority = {
 	}
 	effect = {
 		plane = {
-			defence = 2
+			attack = 2
 			default_organisation = 5
 		}
 	}

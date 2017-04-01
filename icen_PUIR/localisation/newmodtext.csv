@@ -5,7 +5,5 @@ demand_reperations_setup;Make $RECIPIENT$ pay reparations;;;;;;;;;;;;;x
 EVTNAME40000;The Shah visits Europe;;;;;;;;;;;;;x
 EVTDESC40000;The Shah has decided to visit Europe to witness first hand the benefits of industrialisation and enlightenment. Some European monarchs have even taken this occasion to invite the Shah into the European knightly orders. One wonders what effect this will have on him...;;;;;;;;;;;;;x
 EVTOPTA40000;Such progress!;;;;;;;;;;;;;x
-EVTNAME40001;Báb Execution;;;;;;;;;;;;;x
-EVTDESC40001;The Báb, leader of the Babist movement has for some time been in our possession. Due to recent unrest among the followers of Babism, powerful figures in our court wish to execute him. This will hopefully restore unity to the empire, but might cause short term turmoil.;;;;;;;;;;;;;x
-EVTOPTA40001;Execute him!;;;;;;;;;;;;;x
-EVTOPTB40001;Let him live;;;;;;;;;;;;;x
+Execute_Bab_title;Báb Execution;;;;;;;;;;;;;x
+Execute_Bab_desc;The Báb, leader of the Babist movement has for some time been in our possession. Due to recent unrest among the followers of Babism, powerful figures in our court wish to execute him. This will hopefully restore unity to the empire, but might cause short term turmoil.;;;;;;;;;;;;;x

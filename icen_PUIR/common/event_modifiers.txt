@@ -376,8 +376,8 @@ anaconda_plan = {
 }
 
 the_homestead_act = {
-	global_immigrant_attract = 0.5	#50%
-	global_assimilation_rate = 0.5
+	global_immigrant_attract = 0.35	#35%
+	global_assimilation_rate = 0.25
 	icon = 9
 }
 
@@ -495,8 +495,8 @@ international_negotiations = {
 
 the_statue_of_liberty = {
 	prestige = 0.1 #was 0.4
-	global_immigrant_attract = 0.5	#50% was 200%
-	global_assimilation_rate = 5.0
+	global_immigrant_attract = 0.35	#35% was 200%
+	global_assimilation_rate = 1.0
 	icon = 15
 }
 

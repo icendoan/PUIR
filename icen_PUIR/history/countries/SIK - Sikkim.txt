@@ -5,6 +5,7 @@ government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.01
+is_releasable_vassal = no	#In accordance with group rules
 
 ruling_party = SIK_conservative
 upper_house = {

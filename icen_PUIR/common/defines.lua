@@ -611,7 +611,7 @@ diplomacy = {
 	TWS_BATTLE_MIN_COUNT = 5, -- At least X battles before the aspect of wins will count
 	TWS_BATTLE_MAX_ASPECT = 8.0, -- Max allowed battle wins aspect for TWS
 	LARGE_POPULATION_INFLUENCE_PENALTY = -0.4,
-	LONE_BACKER_PRESTIGE_FACTOR = 0.50 -- prestige boost for being only defender backer in crisis
+	LONE_BACKER_PRESTIGE_FACTOR = 0.05 -- prestige boost for being only defender backer in crisis
 },  
 
 

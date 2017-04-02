@@ -1550,7 +1550,7 @@ early_interwar_fighters = {
 	}
 	effect = {
 		plane = {
-			attack = 2
+			attack = 1
 			defence = 0.25
 			supply_consumption = 0.025
 		}
@@ -1571,7 +1571,7 @@ late_interwar_fighters = {
 	}
 	effect = {
 		plane = {
-			attack = 2
+			attack = 1
 			defence = 0.25
 			supply_consumption = 0.025
 		}

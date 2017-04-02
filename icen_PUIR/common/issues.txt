@@ -128,17 +128,15 @@ party_issues = {
 	citizenship_policy = {
 		residency = {
 			rules = { primary_culture_voting = yes }
-			global_assimilation_rate = 0.25  #you need to assimilate to get the vote
-			global_immigrant_attract = -0.02  #might just leave instead
+			suppression_points_modifier = 0.15
 		}
 		limited_citizenship = {
 			rules = { culture_voting = yes }
-			global_immigrant_attract = 0.01 
-			global_assimilation_rate = 0.05
+			global_assimilation_rate = 0.10
 		}
 		full_citizenship = {
 			rules = { all_voting = yes }
-			global_immigrant_attract = 0.03  #go where I can vote
+			global_immigrant_attract = 0.02  #go where I can vote
 			global_assimilation_rate = -0.10
 		}
 	}

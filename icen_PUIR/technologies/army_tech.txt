@@ -812,7 +812,7 @@ heavy_armament_dunno = {
 		attack = 0.5
 		defence = 2
 		support = 0.5
-		supply_consumption = 0.05
+		supply_consumption = 0.25
 	}
 	
 	ai_chance = {

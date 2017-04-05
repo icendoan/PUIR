@@ -44,15 +44,15 @@ they are allowed to join.
 
 Peace Rules:
 
-7. For the first year of war, for the attacker, wargoals are limited to what is stated at the
-declaration. For the defender, they are limited to wargoals in proportion to
+7. for the first year of war, for the attacker, wargoals are limited to what is stated at the
+declaration. for the defender, they are limited to wargoals in proportion to
 the stated wargoals.
-7.1 Once a year has passed, then the wargoals may be freely updated by either
+7.1 once a year has passed, then the wargoals may be freely updated by either
 side.
-7.2 Changes in wargoals must be announced in chat, and sent to a GM via
-steam/discord/etc. Spamming the GMs will encourage them to inventively misread
+7.2 changes in wargoals must be announced in chat, and sent to a gm via
+steam/discord/etc. spamming the gms will encourage them to inventively misread
 your stated terms.
-7.3 If a side has not stated wargoals, then a statement of surrender is taken to mean a demand for terms; the surrendering party can then retract their surrender if they prefer. 
+7.3 if a side has not stated wargoals, then a statement of surrender is taken to mean a demand for terms; the surrendering party can then retract their surrender if they prefer. 
 
 8. The sum value of all wargoals may not go over 100%, even in the context of
 separate peace treaties.
@@ -74,55 +74,55 @@ Treaties and Alliances:
 11. Alliances must be signed via a treaty on the forums.
 11.1 Note: alliances are not required to join wars.
 
-13. Treaties involving the acquisition of land give the acquirer 3 infamy per
+12. Treaties involving the acquisition of land give the acquirer 3 infamy per
 region.
-13.1 Treaties are not allowed to edit the cores of a region, or to transfer
+12.1 Treaties are not allowed to edit the cores of a region, or to transfer
 away core land, or to involve the transfer of populations, or to involve the
 transfer of infamy. See rule 0.1.
-13.2 All edits that are mandated by treaty are subject to GM approval. If the
+12.2 All edits that are mandated by treaty are subject to GM approval. If the
 is a term of a treaty that is not allowed, then the treaty is not in effect
 until an amendment has been made.
 
-14. Treaties only last a single session.
-14.1 If a treaty obliges a nation to a course of action, that course of action
+13. Treaties only last a single session.
+13.1 If a treaty obliges a nation to a course of action, that course of action
 is started, and that action spans multiple sessions (for example, joining a war), 
 then the treaty is considered in effect until that action has been completed,
 or 3 sessions have passed without a renewal treaty.
 
-15. The maximum infamy penalty for any treaty is 10 infamy. 
+14. The maximum infamy penalty for any treaty is 10 infamy. 
 
 Crises and Interventions
 
-16. No wargoals are allowed to be added to crises.
+15. No wargoals are allowed to be added to crises.
 
-17. If a nation cannot join a crisis war due to game mechanics, despite being in a position to join, this does not invalidate treaties.
+16. If a nation cannot join a crisis war due to game mechanics, despite being in a position to join, this does not invalidate treaties.
 
-18. Interventions into a player-AI war must be accompanied by a pause.
+17. Interventions into a player-AI war must be accompanied by a pause.
 
 Economic Rules:
 
-19. Stockpiling is allowed, but exclusively for actual demand. Players are not
+18. Stockpiling is allowed, but exclusively for actual demand. Players are not
 allowed to stockpile and then flash sell, or cyclically build and destroy
 structures to consume all the world supply for any goods. 
 
 Miscellaneous Rules:
 
-20. You are not allowed to have more than 1000 points, or 25% of your maximum
+19. You are not allowed to have more than 1000 points, or 25% of your maximum
 naval supply (whichever is larger) above your supply cap.
 
-21. 'Nation ruining' is not allowed (up to the GM's discretion).
+20. 'Nation ruining' is not allowed (up to the GM's discretion).
 
-22. China is off limits.
-22.1 With the exception of: Manchuria, Formosa, Hainan, and the Treaty Ports.
-22.2 This includes any substates, or nations holding Chinese land.
-22.3 The CBs 'Cut down to size', 'Humiliate', 'Pay Reparations', and
+21. China is off limits.
+21.1 With the exception of: Manchuria, Formosa, Hainan, and the Treaty Ports.
+21.2 This includes any substates, or nations holding Chinese land.
+21.3 The CBs 'Cut down to size', 'Humiliate', 'Pay Reparations', and
 'Dismantle Fortifications' are permitted.
 
-23. Nations are not bound by treaties with nations that are over the infamy
+22. Nations are not bound by treaties with nations that are over the infamy
 limit (25 infamy).
 
-24. Nations that are a part of your cultural union (if any), or are subject to
+23. Nations that are a part of your cultural union (if any), or are subject to
 wargoals, existing or being prepared, are not allowed to be released.
 
-25. Nations already in player-vs-player wars may not be declared upon.
-25.1 Nations in a player-vs-player war may still declare war on other players.
+24. Nations already in player-vs-player wars may not be declared upon.
+24.1 Nations in a player-vs-player war may still declare war on other players.

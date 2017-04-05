@@ -77,7 +77,8 @@ Treaties and Alliances:
 13. Treaties involving the acquisition of land give the acquirer 3 infamy per
 region.
 13.1 Treaties are not allowed to edit the cores of a region, or to transfer
-away core land, or to involve the transfer of populations. See rule 0.1.
+away core land, or to involve the transfer of populations, or to involve the
+transfer of infamy. See rule 0.1.
 13.2 All edits that are mandated by treaty are subject to GM approval. If the
 is a term of a treaty that is not allowed, then the treaty is not in effect
 until an amendment has been made.
@@ -119,3 +120,9 @@ naval supply (whichever is larger) above your supply cap.
 
 23. Nations are not bound by treaties with nations that are over the infamy
 limit (25 infamy).
+
+24. Nations that are a part of your cultural union (if any), or are subject to
+wargoals, existing or being prepared, are not allowed to be released.
+
+25. Nations already in player-vs-player wars may not be declared upon.
+25.1 Nations in a player-vs-player war may still declare war on other players.

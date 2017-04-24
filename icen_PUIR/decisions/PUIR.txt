@@ -466,7 +466,7 @@ political_decisions = {
 			prestige = 50
 			860 = { change_province_name = "Constantinople" }
 			828 = { change_province_name = "Adrianople" }
-			858 = { change_province_name = "Saranta Ekklisiès" }
+			858 = { change_province_name = "Saranta EkklisiÃ¨s" }
 			861 = { change_province_name = "Skoutarion" }
 			860 = {
 				state_scope = {
@@ -849,7 +849,7 @@ political_decisions = {
 			set_country_flag = a_home_for_revolutionaries
 			plurality = 1
 			define_general = {
-				name = "Ismail Pasha" ## born György Kméty -- hungarian patriot ##
+				name = "Ismail Pasha" ## born GyÃ¶rgy KmÃ©ty -- hungarian patriot ##
 				personality = balanced_p
 				background = adventurer 
 			}
@@ -899,7 +899,7 @@ political_decisions = {
 			860 = { change_province_name = "Istanbul" }
 			828 = { change_province_name = "Edirne" }
 			858 = { change_province_name = "Kirklareli" }
-			861 = { change_province_name = "Üsküdar" }
+			861 = { change_province_name = "ÃœskÃ¼dar" }
 			860 = {
 				state_scope = {
 					any_pop = {
@@ -1448,6 +1448,7 @@ political_decisions = {
 				with = ENG
 				value = -25
 			}
+			badboy = 4
 		}
 		ai_will_do = {
 			factor = 1

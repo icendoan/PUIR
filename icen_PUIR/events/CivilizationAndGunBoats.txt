@@ -2006,6 +2006,7 @@ country_event = {
 				has_country_flag = empress_of_india
 			}
 		}
+		NOT = { has_country_flag = has_lapsed }
 		vassal_of = ENG
 		ai = yes
 		civilized = no
@@ -2067,6 +2068,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA13357"
+		set_country_flag = has_lapsed
 		any_pop = {
 			militancy = 4
 			consciousness = 1

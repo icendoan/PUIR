@@ -1,13 +1,12 @@
-capital = 369
-primary_culture = north_german
-culture = danish
-religion = protestant
-government = absolute_monarchy
+capital = 826
+primary_culture = greek
+religion = orthodox
+government = presidential_dictatorship
 plurality = 25.0
 nationalvalue = nv_order
-literacy = 0.7
+literacy = 0.22
 civilized = yes
-prestige = 5
+prestige = 1
 is_releasable_vassal = no
 
 # Political reforms
@@ -29,12 +28,12 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
-ruling_party = HLS_conservative_2
+ruling_party = ION_conservative
 upper_house = {
 	fascist = 0
-	liberal = 19
-	conservative = 63
-	reactionary = 18
+	liberal = 25
+	conservative = 58
+	reactionary = 17
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
@@ -44,112 +43,96 @@ upper_house = {
 post_napoleonic_thought = 1
 flintlock_rifles = 1
 bronze_muzzle_loaded_artillery = 1
-military_staff_system = 1
 army_command_principle = 1
 post_nelsonian_thought = 1
-clipper_design = 1
-naval_design_bureaus = 1
-alphabetic_flag_signaling = 1
 the_command_principle = 1
-classicism_n_early_romanticism = 1
-late_enlightenment_philosophy = 1
-malthusian_thought = 1
-enlightenment_thought = 1
-introspectionism = 1
 private_banks = 1
 no_standard = 1
-early_classical_theory_and_critique = 1
-freedom_of_trade = 1
 guild_based_production = 1
+classicism_n_early_romanticism = 1
+late_enlightenment_philosophy = 1
+enlightenment_thought = 1
 water_wheel_power = 1
 publishing_industry = 1
-mechanized_mining = 1
-basic_chemistry = 1
 
-#Inventions
+# Inventions
 
-# Starting Consciousness
-consciousness = 3
-nonstate_consciousness = 1
+#Starting Consciousness
+consciousness = 2
+nonstate_consciousness = 0
 
-oob = "HOL_oob.txt"
+oob = "ION_oob.txt"
 1861.1.1 = {
-	oob = "/1861/HOL_oob.txt"
+	oob = "/1861/ION_oob.txt"
 	plurality = 60
-	literacy = 0.80
-	non_state_culture_literacy = 0.80
+	literacy = 0.27
 }
 1861.1.1 = {
 # Technologies
 	post_napoleonic_thought = 1
-	strategic_mobility = 1
-	point_defense_system = 1
 	flintlock_rifles = 1
 	muzzle_loaded_rifles = 1
-	breech_loaded_rifles = 1
 	bronze_muzzle_loaded_artillery = 1
 	iron_muzzle_loaded_artillery = 1
-	iron_breech_loaded_artillery = 1
 	military_staff_system = 1
-	military_plans = 1
-	military_statistics = 1
 	army_command_principle = 1
 	army_professionalism = 1
-	army_decision_making = 1
 	
 	post_nelsonian_thought = 1
-	battleship_column_doctrine = 1
 	clipper_design = 1
 	steamers = 1
 	naval_design_bureaus = 1
-	fire_control_systems = 1
 	alphabetic_flag_signaling = 1
-	naval_plans = 1
 	the_command_principle = 1
 	
 	private_banks = 1
-	stock_exchange = 1
-	business_banks = 1
 	no_standard = 1
 	ad_hoc_money_bill_printing = 1
 	early_classical_theory_and_critique = 1
-	late_classical_theory = 1
 	freedom_of_trade = 1
 	market_structure = 1
 	guild_based_production = 1
-	organized_factories = 1
 	
 	classicism_n_early_romanticism = 1
 	romanticism = 1
 	late_enlightenment_philosophy = 1
 	idealism = 1
-	empiricism = 1
 	malthusian_thought = 1
 	positivism = 1
 	enlightenment_thought = 1
 	ideological_thought = 1
 	state_n_government = 1
-	nationalism_n_imperialism = 1
 	introspectionism = 1
 	associationism = 1
-	#phenomenalism = 1
 	
 	water_wheel_power = 1
 	practical_steam_engine = 1
-	high_n_low_pressure_steam_engines = 1
 	publishing_industry = 1
-	mechanical_production = 1
-	interchangeable_parts = 1
 	mechanized_mining = 1
-	clean_coal = 1
-	cheap_iron = 1
 	experimental_railroad = 1
-	early_railroad = 1
-	iron_railroad = 1
 	basic_chemistry = 1
 	medicine = 1
-	inorganic_chemistry = 1
 
 #Inventions
-
+	pitts_threshing_machine = yes
+	northrop_power_loom = yes
+	mechanical_saw = yes
+	mechanized_slaughtering_block = yes
+	jacquard_power_loom = yes
+	hussey_n_mccormicks_reaping_machine = yes
+	speedy_maneuvering_tactic = yes
+	long_range_fire_tactic = yes
+	sharp_n_roberts_power_loom = yes
+	mechanical_precision_saw = yes
+	hegelian_idealism = yes
+	proto_existentialism = yes
+	precision_work = yes
+	food_packing_system = yes
+	integral_distillery_process = yes
+	jiggs = yes
+	whitney_n_colts_standardized_small_arms = yes
+	neokantian_idealism = yes
+	machine_tools = yes
+	work_control_and_hierarchy = yes
+	work_classification = yes
 }

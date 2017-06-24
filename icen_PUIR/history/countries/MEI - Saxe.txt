@@ -4,10 +4,10 @@ religion = protestant
 government = absolute_monarchy
 plurality = 25.0
 nationalvalue = nv_order
-literacy = 0.7
+literacy = 0.8
 civilized = yes
 prestige = 1
-
+is_releasable_vassal = no
 
 # Political reforms
 slavery = no_slavery
@@ -75,8 +75,8 @@ oob = "MEI_oob.txt"
 1861.1.1 = {
 	oob = "/1861/MEI_oob.txt"
 	plurality = 60
-	literacy = 0.8
-	non_state_culture_literacy = 0.8
+	literacy = 0.90
+	non_state_culture_literacy = 0.45
 }
 1861.1.1 = {
 # Technologies
@@ -131,7 +131,7 @@ oob = "MEI_oob.txt"
 	nationalism_n_imperialism = 1
 	introspectionism = 1
 	associationism = 1
-	#phenomenalism = 1
+	phenomenalism = 1
 	
 	water_wheel_power = 1
 	practical_steam_engine = 1

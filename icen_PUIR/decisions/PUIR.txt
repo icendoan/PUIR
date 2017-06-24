@@ -1448,6 +1448,7 @@ political_decisions = {
 				with = ENG
 				value = -25
 			}
+			badboy = 4
 		}
 		ai_will_do = {
 			factor = 1

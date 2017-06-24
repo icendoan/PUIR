@@ -31,7 +31,7 @@ political_decisions = {
 				consciousness = 1
 			}
 			badboy = -4
-			years_of_research = 0.05
+			#years_of_research = 0.05
 			clr_country_flag = serfdom_not_abolished
 		}
 	}
@@ -196,6 +196,7 @@ political_decisions = {
 				country_event = { id=80000 days=0 }
 			}
 			prestige = 2
+			badboy = 2
 		}
 	}
 

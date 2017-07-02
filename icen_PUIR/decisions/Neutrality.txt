@@ -118,6 +118,7 @@ political_decisions = {
 			ai = no
 			NOT = { involved_in_crisis = yes }
 			war = no
+			is_greater_power = no
 			NOT = {
 				tag = SWI
 				has_country_modifier = generic_neutrality
@@ -132,7 +133,11 @@ political_decisions = {
 			}
 			NOT = {
 				badboy = 0.4
+			}
+			NOT = {
+				num_of_vassals = 1
 			}		
+			is_secondary_power = no
 		}
 		
 		effect = {

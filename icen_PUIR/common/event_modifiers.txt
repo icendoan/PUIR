@@ -983,6 +983,11 @@ latin_monetary_union = {
 	tariff_efficiency_modifier = -0.05
 	icon = 9
 }
+### Icen-South America###
+American_Immigration = {
+	global_immigrant_attract = 0.2
+	icon = 17
+}
 
 #Colonial Block Stuff
 colonial_40 = {

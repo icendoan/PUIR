@@ -173,5 +173,9 @@ country_event = { #original VIP event by Generalisimo
 		SAR = {
 			relation = { who = THIS value = 25 }
 		} 
+		add_country_modifier = {
+			name = American_Immigration
+			duration = -1
+		}
 	}
 }

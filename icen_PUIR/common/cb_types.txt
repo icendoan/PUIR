@@ -1296,6 +1296,12 @@ demand_concession_casus_belli = {
 
 	can_use = {
 		this = { NOT = { badboy = 1 } }
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
 		THIS = { NOT = {
 				OR = {
 					has_country_modifier = neutrality
@@ -1371,6 +1377,12 @@ establish_protectorate_casus_belli = {
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			civilized = yes
+		}
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
 		}
 		THIS = { NOT = {
 				OR = {

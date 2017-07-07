@@ -134,7 +134,7 @@ political_decisions = {
 				value = 50
 			}
 			prestige = 10
-			badboy = -4
+			badboy = -2
 			GRE = {
 				inherit = ION
 			}

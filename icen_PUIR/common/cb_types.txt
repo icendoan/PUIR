@@ -1150,6 +1150,17 @@ make_puppet = {
 		NOT = { tag = CHI }
 		is_greater_power = no
 		is_vassal = no
+		NOT = { 
+		OR = {
+			has_country_modifier = colonial_40
+			has_country_modifier = colonial_50
+			has_country_modifier = colonial_55
+			has_country_modifier = colonial_60
+			has_country_modifier = colonial_65
+			has_country_modifier = colonial_70
+			has_country_modifier = colonial_75
+			}
+		}
 	}
 	
 	# THIS - us

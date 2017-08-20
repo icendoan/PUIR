@@ -308,16 +308,16 @@ migration_chance =
 		}
 	}
 
-	modifier = {
-		factor = -1.0
-		is_accepted_culture = no
-		NOT = {
-			OR = {  
-				culture = irish
-				state_scope = { is_colonial = yes }
-			} 
-		}
-	}
+	#modifier = {
+	#	factor = -1.0
+	#	is_accepted_culture = no
+	#	NOT = {
+	#		OR = {  
+	#			culture = irish
+	#			state_scope = { is_colonial = yes }
+	#		} 
+	#	}
+	#}
 
 	#modifier = {
 	#	factor = -2.0

@@ -989,42 +989,6 @@ American_Immigration = {
 	icon = 17
 }
 
-#Colonial Block Stuff
-colonial_40 = {
-	rgo_output = 0.05
-	icon = 15
-}
-
-colonial_50 = {
-	rgo_output = 0.05
-	icon = 15
-}
-
-colonial_55 = {
-	rgo_output = 0.05
-	icon = 15
-}
-
-colonial_60 = {
-	rgo_output = 0.05
-	icon = 15
-}
-
-colonial_65 = {
-	rgo_output = 0.05
-	icon = 15
-}
-
-colonial_70 = {
-	rgo_output = 0.05
-	icon = 15
-}
-
-colonial_75 = {
-	rgo_output = 0.05
-	icon = 15
-}
-
 ### Archaeology ###
 mycenaean_excavations = {
 	prestige = 0.01

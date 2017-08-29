@@ -655,7 +655,7 @@ promote_to =
 				}	
 				state_scope = {
 					total_pops = 2000000
-					soldiers = 0.025 
+					soldiers = 0.035 
 				}
 			}
 		}

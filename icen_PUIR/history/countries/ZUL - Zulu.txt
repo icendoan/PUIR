@@ -8,6 +8,8 @@ plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.05
 
+set_country_flag = conquerable_1865
+
 ruling_party = ZUL_conservative
 upper_house = {
 	fascist = 0

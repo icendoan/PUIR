@@ -183,6 +183,10 @@ conquest = {
 			 } 
 		}
 		OR = {
+			NOT = { has_country_flag = conquerable_1865 }
+			year = 1865
+		}
+		OR = {
 			AND = {
 				civilized = yes
 				NOT = { number_of_states = 2 }
@@ -569,6 +573,10 @@ acquire_state = {
 				}
 			 } 
 		}
+		OR = {
+			NOT = { has_country_flag = conquerable_1865 }
+			year = 1865
+		}
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			not = { is_core = THIS }
@@ -656,6 +664,10 @@ place_in_the_sun = {
 					has_country_modifier = generic_neutrality
 				}
 			 } 
+		}
+		OR = {
+			NOT = { has_country_flag = conquerable_1865 }
+			year = 1865
 		}
 		any_owned_province = {
 			is_colonial = yes
@@ -1313,16 +1325,9 @@ demand_concession_casus_belli = {
 				}
 			 } 
 		}
-		NOT = { 
 		OR = {
-			has_country_modifier = colonial_40
-			has_country_modifier = colonial_50
-			has_country_modifier = colonial_55
-			has_country_modifier = colonial_60
-			has_country_modifier = colonial_65
-			has_country_modifier = colonial_70
-			has_country_modifier = colonial_75
-			}
+			NOT = { has_country_flag = conquerable_1865 }
+			year = 1865
 		}
 		NOT = { is_our_vassal = THIS }
 		THIS = {
@@ -1395,16 +1400,9 @@ establish_protectorate_casus_belli = {
 				}
 			 } 
 		}
-		NOT = { 
 		OR = {
-			has_country_modifier = colonial_40
-			has_country_modifier = colonial_50
-			has_country_modifier = colonial_55
-			has_country_modifier = colonial_60
-			has_country_modifier = colonial_65
-			has_country_modifier = colonial_70
-			has_country_modifier = colonial_75
-			}
+			NOT = { has_country_flag = conquerable_1865 }
+			year = 1865
 		}
 		OR = {
 			NOT = {
@@ -1924,6 +1922,10 @@ conquest_low = {
 				}
 			 } 
 		}
+		OR = {
+			NOT = { has_country_flag = conquerable_1865 }
+			year = 1865
+		}
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
 		OR = {
@@ -2033,6 +2035,10 @@ take_capital = {
 					civilized = no
 				}
 			}
+		}
+		OR = {
+			NOT = { has_country_flag = conquerable_1865 }
+			year = 1865
 		}
 		is_independant = yes
 	}
@@ -2350,29 +2356,11 @@ establish_colonial_protectorate_casus_belli = {
 			}
 		}
 		civilized = no
+		
 		OR = {
-					AND = { year = 1840
-							has_country_modifier = colonial_40
-							}
-					AND = { year = 1850
-							has_country_modifier = colonial_50
-							}
-					AND = { year = 1855
-							has_country_modifier = colonial_55
-							}
-					AND = { year = 1860
-							has_country_modifier = colonial_60
-							}
-					AND = { year = 1865
-							has_country_modifier = colonial_65
-							}
-					AND = { year = 1870
-							has_country_modifier = colonial_70
-							}
-					AND = { year = 1875
-							has_country_modifier = colonial_75
-							}
-			}
+			NOT = { has_country_flag = conquerable_1865 }
+			year = 1865
+		}
 	}
 	
 	po_annex = yes
@@ -2413,28 +2401,9 @@ demand_colonial_concession_casus_belli = {
 	can_use = {
 		this = { NOT = { badboy = 1 } }
 		OR = {
-					AND = { year = 1840
-							has_country_modifier = colonial_40
-							}
-					AND = { year = 1850
-							has_country_modifier = colonial_50
-							}
-					AND = { year = 1855
-							has_country_modifier = colonial_55
-							}
-					AND = { year = 1860
-							has_country_modifier = colonial_60
-							}
-					AND = { year = 1865
-							has_country_modifier = colonial_65
-							}
-					AND = { year = 1870
-							has_country_modifier = colonial_70
-							}
-					AND = { year = 1875
-							has_country_modifier = colonial_75
-							}
-			}
+			NOT = { has_country_flag = conquerable_1865 }
+			year = 1865
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -2518,17 +2487,9 @@ demand_colony_for_allies = {
 		}
 		FROM = {
 			exists = yes
-			NOT = {
-				OR = {
-					tag = THIS
-					has_country_modifier = colonial_40
-					has_country_modifier = colonial_50
-					has_country_modifier = colonial_55
-					has_country_modifier = colonial_60
-					has_country_modifier = colonial_65
-					has_country_modifier = colonial_70
-					has_country_modifier = colonial_75
-				}
+			OR = {
+				NOT = { has_country_flag = conquerable_1865 }
+				year = 1865
 			}
 		}
 	}

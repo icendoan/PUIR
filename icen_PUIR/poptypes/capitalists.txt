@@ -104,6 +104,27 @@ country_migration_target =
 		}
 	}
 	modifier = {
+		factor = 2.0
+		continent = africa
+		OR = {
+			primary_culture = boer
+			accepted_culture = boer
+		}
+	}
+	modifier = {
+		factor = 2.0
+		continent = africa
+		OR = {
+			primary_culture = boer
+			accepted_culture = boer
+		}
+		OR = { 
+			THIS = { culture = boer }
+			THIS = { culture = dutch }
+			THIS = { culture = flemish }
+		}
+	}
+	modifier = {
 		factor = 0.1
 		NOT = {
 			any_owned_province = {

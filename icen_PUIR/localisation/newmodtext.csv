@@ -7,5 +7,7 @@ EVTDESC40000;The Shah has decided to visit Europe to witness first hand the bene
 EVTOPTA40000;Such progress!;;;;;;;;;;;;;x
 Execute_Bab_title;Báb Execution;;;;;;;;;;;;;x
 Execute_Bab_desc;The Báb, leader of the Babist movement has for some time been in our possession. Due to recent unrest among the followers of Babism, powerful figures in our court wish to execute him. This will hopefully restore unity to the empire, but might cause short term turmoil.;;;;;;;;;;;;;x
-American_Immigration;American Immigration;;;;;;;;;;;;;
-American_Immigration_desc;This country is a target for immigration to the Americas. It should expect more immigrants than comparable countries.;;;;;;;;;;;;;
+Bonus_Immigration;Bonus Immigration;;;;;;;;;;;;;
+Bonus_Immigration_desc;This country is a target for immigration. It should expect more immigrants than comparable countries.;;;;;;;;;;;;;
+Hazardous_Journey;Hazardous Journey;;;;;;;;;;;;;
+Hazardous_Journey_desc;To reach this country requires a hazardous Journey which few people is willing to take. As a result, this nation should expect fewer immigrants than comparable countries.;;;;;;;;;;;;;

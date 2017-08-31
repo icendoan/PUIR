@@ -308,16 +308,16 @@ migration_chance =
 		}
 	}
 
-	#modifier = {
-	#	factor = -1.0
-	#	is_accepted_culture = no
-	#	NOT = {
-	#		OR = {  
-	#			culture = irish
-	#			state_scope = { is_colonial = yes }
-	#		} 
-	#	}
-	#}
+	modifier = {
+		factor = -0.2  #was -1.0 in base PUIR
+		is_accepted_culture = no
+		NOT = {
+			OR = {  
+				culture = irish
+				state_scope = { is_colonial = yes }
+			} 
+		}
+	}
 
 	#modifier = {
 	#	factor = -2.0
@@ -554,7 +554,7 @@ emigration_chance =
 	}
 
 	modifier = {
-		factor = -0.3
+		factor = -0.4
 		is_accepted_culture = no
 		NOT = { culture = irish }
 	}

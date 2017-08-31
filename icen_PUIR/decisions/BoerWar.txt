@@ -6,9 +6,11 @@ political_decisions = {
 			NOT = {
 				has_country_flag = the_great_trek_ora
 			}
+			NOT = { year = 1841 }
 		}
 		
 		allow = {
+			NOT = { year = 1841 }
 			prestige = 2
 		}
 		
@@ -19,6 +21,10 @@ political_decisions = {
 					name = trek_boers
 					duration = 3650
 				}
+			}
+			add_country_modifier = {
+				name = Bonus_Immigration
+				duration = 3600
 			}
 			ENG = {
 				any_owned = {
@@ -53,9 +59,11 @@ political_decisions = {
 			NOT = { 
 				has_country_flag = the_great_trek_trn
 			}
+			NOT = { year = 1841 }
 		}
 		
 		allow = {
+			NOT = { year = 1841 }
 			prestige = 2
 		}
 		
@@ -67,6 +75,10 @@ political_decisions = {
 					name = trek_boers
 					duration = 3650
 				}
+			}
+			add_country_modifier = {
+				name = Bonus_Immigration
+				duration = 3600
 			}
 		}
 		ai_will_do = {

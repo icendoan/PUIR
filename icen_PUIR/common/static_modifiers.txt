@@ -146,7 +146,7 @@ war = {
 	max_war_exhaustion = 100			#base max at war.
 	#supply_consumption = -0.5
 	#war_exhaustion = 0.1
-	badboy = -0.033
+	badboy = -0.025
 }
 
 peace = {
@@ -154,6 +154,7 @@ peace = {
 	#supply_consumption = -0.5
 	war_exhaustion = -1
 	badboy = -0.1
+	mobilisation_economy_impact = 2.0
 }
 
 disarming = {

@@ -109,7 +109,7 @@ average_nation  = {
 	supply_consumption = 0.05
 	mobilisation_size = -0.01
 	tax_efficiency = -0.05 #5% malus
-	max_tariff = -0.1 #10% 
+	#max_tariff = -0.1 #10% 
 	icon = 6
 }
 
@@ -125,7 +125,8 @@ large_nation  = {
 	supply_consumption = 0.1
 	mobilisation_size = -0.02
 	tax_efficiency = -0.05 #5% malus
-	max_tariff = -0.15 #15% 
+	max_tariff = -0.05 #5% was 15%
+	mobilisation_economy_impact = 0.1
 	icon = 6
 }
 
@@ -148,8 +149,9 @@ empire  = {
 	mobilisation_size = -0.02
 	supply_consumption = 0.15
 	tax_efficiency = -0.07 #7% malus
-	max_tariff = -0.20 #20%
+	max_tariff = -0.10 #10% was 20%
 	factory_owner_cost = -0.10 #10% decrease in cost for buildings
+	mobilisation_economy_impact = 0.2
 	icon = 6
 }
 
@@ -172,9 +174,10 @@ medium_empire  = {
 	mobilisation_size = -0.03
 	supply_consumption = 0.2
 	tax_efficiency = -0.09 #9% malus
-	max_tariff = -0.20 #20%
+	max_tariff = -0.15 #15% was 20%
 	research_points_modifier = 0.1 #10% increase
 	factory_owner_cost = -0.10 #10% decrease in cost for buildings
+	mobilisation_economy_impact = 0.4
 	icon = 6
 }
 
@@ -197,9 +200,10 @@ large_empire  = {
 	mobilisation_size = -0.04
 	supply_consumption = 0.3 #30% increase
 	tax_efficiency = -0.11 #11% malus
-	max_tariff = -0.25 #25%
+	max_tariff = -0.20 #20% was 25%
 	research_points_modifier = 0.13 #13% increase
 	factory_owner_cost = -0.15 #15% decrease in cost for buildings
+	mobilisation_economy_impact = 0.6
 	icon = 6
 }
 
@@ -211,11 +215,12 @@ insane_empire  = {
 		trade_policy = free_trade
 	}
 	global_population_growth = -0.006
-	mobilisation_size = -0.08
+	mobilisation_size = -0.07
 	supply_consumption = 0.6 #60% increase
 	tax_efficiency = -0.2 #20% malus
 	max_tariff = -0.25 #25% malus
 	factory_owner_cost = -0.15 #15% decrease in cost for buildings
+	mobilisation_economy_impact = 1.0
 	icon = 6
 }
 
@@ -227,11 +232,12 @@ insane_empire2  = {
 		trade_policy = protectionism
 	}
 	global_population_growth = -0.006
-	mobilisation_size = -0.08
+	mobilisation_size = -0.07
 	supply_consumption = 0.6 #60% increase
 	tax_efficiency = -0.2 #20% malus
 	max_tariff = -0.60 #60% malus
 	factory_owner_cost = -0.15 #15% decrease in cost for buildings
+	mobilisation_economy_impact = 1.0
 	icon = 6
 }
 

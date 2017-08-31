@@ -6,7 +6,7 @@
 #Empiricism (Culture)
 sanitation = {
 	limit = { 
-		empiricism = 1
+		impressionism = 1
 	}
 	chance = {
 		base = 2

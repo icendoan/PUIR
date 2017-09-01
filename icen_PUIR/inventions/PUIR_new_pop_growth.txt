@@ -97,7 +97,7 @@ cholera_vaccine = {
 antitoxins = {
 	limit = {
 		electricity = 1
-		analytic_philosophy = 1
+		military_logistics = 1
 	}
 	chance = {
 		base = 2

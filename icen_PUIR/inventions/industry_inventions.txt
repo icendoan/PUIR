@@ -901,7 +901,7 @@ stainless_steel = {
 		}
 	}
 	effect = {
-		pop_growth = -0.0001
+		#pop_growth = -0.0001
 		factory_goods_output = {
 			steel = 0.04
 		}

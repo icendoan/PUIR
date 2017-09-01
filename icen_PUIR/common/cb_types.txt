@@ -2357,8 +2357,8 @@ establish_colonial_protectorate_casus_belli = {
 		}
 		civilized = no
 		
-		OR = {
-			NOT = { has_country_flag = conquerable_1865 }
+		AND = {
+			has_country_flag = conquerable_1865 
 			year = 1865
 		}
 	}
@@ -2400,8 +2400,8 @@ demand_colonial_concession_casus_belli = {
 
 	can_use = {
 		this = { NOT = { badboy = 1 } }
-		OR = {
-			NOT = { has_country_flag = conquerable_1865 }
+		AND = {
+			has_country_flag = conquerable_1865 
 			year = 1865
 		}
 		NOT = { 

@@ -557,7 +557,7 @@ social_reforms = {
 		}
 		good_schools = {
 			education_efficiency_modifier = 0.2
-			global_immigrant_attract = 0.8 #8% was 0.04
+			global_immigrant_attract = 0.08 #8% was 0.04
 			administrative_multiplier = 3
 		}
 	}	

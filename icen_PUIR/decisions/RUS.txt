@@ -273,12 +273,13 @@ political_decisions = {
 			allow = {
 				owns = 994
 				idealism = 1
-				state_n_government = 1
+				army_professionalism = 1
+				naval_professionalism = 1
 			}
 			
 			effect = {
 				tech_school = russian_tech_school
-				prestige = 10
+				prestige = 5
 			}
 			ai_will_do = {
 				factor = 1

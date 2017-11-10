@@ -23,9 +23,9 @@ monitor = {
 	build_time = 360
 	build_cost = {
 		steamer_convoy = 20
-		artillery = 12
+		artillery = 10
 		iron = 100
-		#canned_food = 10
+		canned_food = 10
 	}
 	min_port_level = 3
 	limit_per_port = -1
@@ -33,9 +33,9 @@ monitor = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 0.35 #21
-		artillery = 0.2       #10
-		canned_food = 0.2     #2  total 33
+		steamer_convoy = 0.4 #21
+		artillery = 0.16       #10
+		#canned_food = 0.2     #2  total 33
 	}
 	
 	#Naval Abilties

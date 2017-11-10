@@ -28,7 +28,7 @@ ironclad = {
 		steamer_convoy = 20
 		artillery = 12
 		iron = 100
-		#canned_food = 10
+		canned_food = 10
 	}
 	min_port_level = 3
 	limit_per_port = -1
@@ -36,9 +36,9 @@ ironclad = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 0.4  #24
-		artillery = 0.24      #12
-		canned_food = 0.2     #2  total 38
+		steamer_convoy = 0.5  #24
+		artillery = 0.2      #12
+		#canned_food = 0.2     #2  total 38
 	}
 	
 	#Naval Abilties

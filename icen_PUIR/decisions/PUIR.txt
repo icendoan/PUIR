@@ -289,6 +289,7 @@ political_decisions = {
 	nwz_proclamation = {
 			potential = {
 				tag = ENG
+				year = 1852
 				NOT = {
 					has_country_flag = new_zealand_is_born
 				}

@@ -188,9 +188,9 @@ political_decisions = {
 		}
 		
 		allow = {
-				is_secondary_power = yes
+				steel_steamers = 1
 				OR = {
-					steel_steamers = 1
+					is_secondary_power = yes
 					is_greater_power = yes
 				}
 		}

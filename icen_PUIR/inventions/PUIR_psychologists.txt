@@ -209,21 +209,29 @@ charles_spearman  = {
 }
 
 eugenics  = {
-	limit = { psychological_intelligence = 1 }
+	limit = { biologism = 1 }
 	news = no
 	chance = {
 		base = 0
 		modifier = {
-			factor = 4
-			invention = francis_galton
+			factor = 5
+			OR = {
+				ruling_party_ideology = fascist
+				ruling_party_ideology = reactionary
+				ruling_party_ideology = communist
+			}
 		}
 		modifier = {
-			factor = 4
-			year = 1890
+			factor = -2
+			NOT = { invention = francis_galton }
 		}
 		modifier = {
 			factor = 2
-			invention = social_darwinism
+			year = 1890
+		}
+		modifier = {
+			factor = -4
+			NOT = { invention = social_darwinism }
 		}
 		modifier = {
 			factor = -10

@@ -27,7 +27,9 @@ country_event = {
 			
 				has_country_flag = will_give_grants
 			
-				money = 0
+				ai = no
+			
+				money = 10000
 		
 			}
 		

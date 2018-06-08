@@ -201,6 +201,7 @@ political_decisions = {
 			is_greater_power = yes
 			BEL = { 
 				exists = yes
+				in_sphere = ENG
 				NOT = { country_event = 36716 }
 			}
 			NET = {

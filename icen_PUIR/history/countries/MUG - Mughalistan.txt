@@ -11,6 +11,8 @@ plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.03
 
+set_country_flag = has_lapsed
+
 ruling_party = MUG_conservative
 upper_house = {
 	fascist = 0

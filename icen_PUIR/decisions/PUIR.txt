@@ -1266,6 +1266,7 @@ political_decisions = {
 				MOL = { ai = yes }
 				}
 			}
+			MOL = {
 			OR = {
 				check_variable = {
 				which = unification_count
@@ -1283,6 +1284,7 @@ political_decisions = {
 				which = unification_count
 				value = 7
 				}
+			}
 			}
 		}
 			

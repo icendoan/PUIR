@@ -74,7 +74,7 @@ basic_chemistry = 1
 #corvettes = yes
 
 # Starting Consciousness
-consciousness = 3
+consciousness = 5
 nonstate_consciousness = 1
 
 govt_flag = {

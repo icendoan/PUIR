@@ -234,4 +234,5 @@ political_decisions = {
    gtfo_SPA = { picture = gtfo alert = no potential = { has_country_flag = gtfo SPA = { vassal_of = THIS NOT = { substate_of = THIS } } } allow = { ai = no } effect = { prestige = -150 release_vassal = SPA diplomatic_influence = { who = SPA value = -100 } } }
    gtfo_TUR = { picture = gtfo alert = no potential = { has_country_flag = gtfo TUR = { vassal_of = THIS NOT = { substate_of = THIS } } } allow = { ai = no } effect = { prestige = -150 release_vassal = TUR diplomatic_influence = { who = TUR value = -100 } } }
    gtfo_CHI = { picture = gtfo alert = no potential = { has_country_flag = gtfo CHI = { vassal_of = THIS NOT = { substate_of = THIS } } } allow = { ai = no } effect = { prestige = -400 release_vassal = CHI diplomatic_influence = { who = CHI value = -100 } } }
+   gtfo_BNG = { picture = gtfo alert = no potential = { has_country_flag = gtfo BNG = { vassal_of = THIS NOT = { substate_of = THIS } } } allow = { ai = no } effect = { prestige = -150 release_vassal = BNG diplomatic_influence = { who = BNG value = -100 } } }
 }

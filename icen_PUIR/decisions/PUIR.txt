@@ -1292,7 +1292,6 @@ political_decisions = {
 		}
 
 		effect = {
-			prestige = 20
 			treasury = 10000
 			change_tag = ROM
 			inherit = WAL
@@ -1341,19 +1340,20 @@ political_decisions = {
 		potential = {
 			tag = ROM
 			NOT = { has_country_flag = we_shall_make_it_beautiful }
-			664 = { owned_by = THIS }		
+			664 = { owned_by = THIS }
+			NOT = { 
+				664 = { is_capital = yes }
+			}		
 		}
 
 		allow = {
 			war = no
-			NOT = { 
-				664 = { is_capital = yes }
-			}
 			
 		}
 
 		effect = {
 			set_country_flag = we_shall_make_it_beautiful
+			prestige = 2
 			capital = 664
 		}
 		ai_will_do = {

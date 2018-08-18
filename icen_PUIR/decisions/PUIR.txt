@@ -1160,24 +1160,43 @@ political_decisions = {
 	}
 	pursue_unification = {
 		potential = {
-			tag = MOL
 			NOT = {
 				exists = ROM
 			}
 			NOT = { has_country_flag = romanian_dream }
+			OR = {
+				AND = {
+				tag = MOL
+				NOT = {
+					ai = yes
+					WAL = { ai = no }
+				}
+				}
+				AND = {
+				tag = WAL
+				ai = no
+				MOL = { ai = yes }
+				}
+			}
 		}
 		
 		allow = {
 			exists = WAL
-			year = 1859
+			exists = MOL
+			OR = {
+				year = 1859
+				WAL = { is_vassal = no }
+			}
 		}
 
 		effect = {
 			set_country_flag = romanian_dream
 			set_global_flag = romanian_dream
-			set_variable = {
-				which = unification_count
-				value = 1
+			MOL = { 
+				set_variable = {
+					which = unification_count
+					value = 1
+				}
 			}
 		}
 		ai_will_do = {
@@ -1190,23 +1209,23 @@ political_decisions = {
 			has_global_flag = romanian_dream
 			NOT = { has_country_flag = romanian_dream }
 			OR = {
+				is_greater_power = yes
 				tag = RUS
 				tag = TUR
-				tag = ENG
-				tag = FRA
+				#tag = ENG
+				#tag = FRA
 				tag = AUS
 				tag = KUK
-				tag = PRU
-				tag = NGF
-				tag = GER
-				tag = SAR
-				tag = ITA
+				#tag = PRU
+				#tag = NGF
+				#tag = GER
+				#tag = SAR
+				#tag = ITA
 			}
 			NOT = { exists = ROM }
 		}
 		
 		allow = {
-			year = 1859
 		}
 
 		effect = {
@@ -1233,7 +1252,21 @@ political_decisions = {
 	}
 	unite_the_principalities = {
 		potential = {
-			tag = MOL
+			OR = {
+				AND = {
+				tag = MOL
+				NOT = {
+					ai = yes
+					WAL = { ai = no }
+				}
+				}
+				AND = {
+				tag = WAL
+				ai = no
+				MOL = { ai = yes }
+				}
+			}
+			MOL = {
 			OR = {
 				check_variable = {
 				which = unification_count
@@ -1252,17 +1285,17 @@ political_decisions = {
 				value = 7
 				}
 			}
+			}
 		}
 			
 		allow = {
-			year = 1859
 		}
 
 		effect = {
-			prestige = 20
 			treasury = 10000
 			change_tag = ROM
 			inherit = WAL
+			inherit = MOL
 			ruling_party_ideology = liberal
 			nationalvalue = nv_liberty
 			government = hms_government
@@ -1307,19 +1340,20 @@ political_decisions = {
 		potential = {
 			tag = ROM
 			NOT = { has_country_flag = we_shall_make_it_beautiful }
-			664 = { owned_by = THIS }		
+			664 = { owned_by = THIS }
+			NOT = { 
+				664 = { is_capital = yes }
+			}		
 		}
 
 		allow = {
 			war = no
-			NOT = { 
-				664 = { is_capital = yes }
-			}
 			
 		}
 
 		effect = {
 			set_country_flag = we_shall_make_it_beautiful
+			prestige = 2
 			capital = 664
 		}
 		ai_will_do = {

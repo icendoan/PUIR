@@ -1659,7 +1659,10 @@ province_event = {
 
 	trigger = {
 		year = 1907
-		province_id = 2396		# Rawson
+		OR = {
+			province_id = 2396		# Rawson
+			province_id = 2391		# Neuquén
+		}
 		not = { trade_goods = oil }
 		OR = {
 			owner = {

@@ -8,7 +8,7 @@ add_core = GER
 
 trade_goods = iron
 
-life_rating = 30
+life_rating = 32
 
 state_building = {
 	level = 1

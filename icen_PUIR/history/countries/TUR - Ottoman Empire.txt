@@ -3,6 +3,7 @@ primary_culture = turkish
 culture = kurdish
 culture = bosniak
 culture = albanian
+culture = north_caucasian
 religion = sunni
 government = absolute_monarchy
 plurality = 25.0

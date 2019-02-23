@@ -409,6 +409,7 @@ political_decisions = {
 			AUS_729 = { add_core = ITA } #Venetia
 			AUS_736 = { add_core = ITA } #Friuli
 			AUS_734 = { add_core = ITA } #South Tirol
+			473 = { add_core = ITA } #Corsica
 		}
 		ai_will_do = {
 			factor = 1

@@ -1,6 +1,5 @@
 owner = PEU
 controller = PEU
 add_core = PEU
-add_core = CHL
-trade_goods = sulphur
+trade_goods = fish
 life_rating = 35

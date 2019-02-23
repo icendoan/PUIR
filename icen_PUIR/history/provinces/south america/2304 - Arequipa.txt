@@ -2,4 +2,4 @@ owner = PEU
 controller = BOL
 add_core = PEU
 trade_goods = sulphur
-life_rating = 30
+life_rating = 35

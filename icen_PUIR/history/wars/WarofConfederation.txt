@@ -16,6 +16,11 @@ name = "War of Confederation"
 		actor = BOL
 		receiver = PEU
 	}
+	war_goal = {
+		casus_belli = status_quo
+		actor = PEU
+		receiver = BOL
+	}
 
 }
 

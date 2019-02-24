@@ -782,7 +782,7 @@ badboymod = {
 
 ### PUIR-Canada###
 dominion_lands_act = {
-	global_immigrant_attract = 0.20
+	global_immigrant_attract = 0.10
 	global_assimilation_rate = 0.25
 	icon = 17
 }

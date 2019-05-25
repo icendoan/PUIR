@@ -2,4 +2,4 @@ owner = NET
 controller = NET
 add_core = NET
 trade_goods = fish
-life_rating = 37
+life_rating = 36

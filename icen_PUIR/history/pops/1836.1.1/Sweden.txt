@@ -299,7 +299,7 @@
 		size = 1100
 	}
 
-	farmers = {
+	labourers = {
 		culture = swedish
 		religion = protestant
 		size = 19525

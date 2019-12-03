@@ -183,7 +183,8 @@ political_decisions = {
 		potential = {
 			tag = INO
 			NOT = {
-				has_country_flag = archipegalo_unite
+				has_country_flag = archipelago_unite
+				#has_country_flag = archipegalo_unite
 			}
 		}
 		

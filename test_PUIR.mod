@@ -1,3 +1,3 @@
-name ="test PUIR" 
-path = "mod/test_PUIR" 
-user_dir = "test_PUIR" 
+name ="icen PUIR" 
+path = "mod/icen_PUIR" 
+user_dir = "icen_PUIR" 

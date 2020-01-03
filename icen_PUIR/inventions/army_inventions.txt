@@ -523,7 +523,7 @@ tank_exploits = {
 	}
 	effect = {
 		tank = {
-			attack = 2
+			attack = 4
 			defence = 4
 			supply_consumption = 0.2
 			siege = 1				
@@ -787,6 +787,7 @@ machine_gun_armament = {
 			supply_consumption = 0.20
 		}
 		guard = {
+			attack = 4
 			defence = 4
 			supply_consumption = 0.20
 		}

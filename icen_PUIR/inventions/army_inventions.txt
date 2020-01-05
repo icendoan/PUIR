@@ -787,7 +787,7 @@ machine_gun_armament = {
 			supply_consumption = 0.20
 		}
 		guard = {
-			attack = 4
+			attack = 2
 			defence = 4
 			supply_consumption = 0.20
 		}

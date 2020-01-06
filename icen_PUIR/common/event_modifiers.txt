@@ -898,6 +898,16 @@ generic_neutrality = {
 	icon = 7
 }
 
+###PUIR - Paraguay###
+Francias_Enlightenment = {
+	rgo_output = 0.05
+	global_immigrant_attract = 0.05
+	unit_recruitment_time = -0.1
+	mobilisation_size = 0.05
+	min_military_spending = 0.5
+	icon = 17
+}
+
 ### POD-Ottomans###
 tanzimat_era = {
 	research_points_modifier = 0.2

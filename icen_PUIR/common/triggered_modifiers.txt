@@ -6,7 +6,7 @@ desperate_nation  = {
 	trigger = {
 		NOT = {
 			OR = { 
-				is_culture_group = germanic
+				#is_culture_group = germanic
 				total_pops = 25000 #25 thousand POPs/100 thousand population	
 			}
 
@@ -24,7 +24,7 @@ microscopic_nation  = {
 		total_pops = 25000 #25 thousand POPs/100 thousand population
 		NOT = {
 			OR = { 
-				is_culture_group = germanic
+				#is_culture_group = germanic
 				total_pops = 125000 #125 thousand POPs/500 thousand population	
 			}
 
@@ -43,7 +43,7 @@ tiny_nation  = {
 		NOT = {
 			OR = {
 				year = 1900
-				is_culture_group = germanic 
+				#is_culture_group = germanic 
 				total_pops = 1250000 #1.25 million POPs/5 Million population
 			}
 
@@ -62,8 +62,8 @@ small_nation  = {
 		total_pops = 1250000 #1.25 million POPs/5 Million population
 		NOT = { 
 			OR = { 
-				is_culture_group = germanic
-				is_culture_group = scandinavian
+				#is_culture_group = germanic
+				#is_culture_group = scandinavian
 				total_pops = 3750000 #3.75 million POPs/15 million population
 			}
 		}
@@ -83,8 +83,8 @@ medium_nation  = {
 			OR = {
 				year = 1900
 				civilized = no
-				is_culture_group = germanic
-				is_culture_group = scandinavian
+				#is_culture_group = germanic
+				#is_culture_group = scandinavian
 				total_pops = 7500000 #7.5 million POPs/30 Million population
 			}
 			

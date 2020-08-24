@@ -1165,18 +1165,18 @@ political_decisions = {
 			}
 			NOT = { has_country_flag = romanian_dream }
 			OR = {
-				AND = {
+			AND = {
 				tag = MOL
-				NOT = {
-					ai = yes
-					WAL = { ai = no }
-				}
-				}
 				AND = {
+				NOT = { ai = yes }
+				NOT = { WAL = { ai = no } }
+				}
+			}
+			AND = {
 				tag = WAL
 				ai = no
 				MOL = { ai = yes }
-				}
+			}
 			}
 		}
 		
@@ -1283,6 +1283,14 @@ political_decisions = {
 				check_variable = {
 				which = unification_count
 				value = 7
+				}
+				check_variable = {
+				which = unification_count
+				value = 8
+				}
+				check_variable = {
+				which = unification_count
+				value = 9
 				}
 			}
 			}

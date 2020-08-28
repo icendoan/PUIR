@@ -1961,10 +1961,27 @@ country_event = {
 
 	is_triggered_only = yes
 
+#	option = {
+#		name = "EVTOPTA13355"
+#		prestige = -25
+#		war_exhaustion = 5
+#	}
+	
+	option = {
+		name = "The Chineese deserved it"
+		FROM = {
+			badboy = -1
+		}
+		CHI = {
+			war_exhaustion = 2
+		}
+	}
+	
 	option = {
 		name = "EVTOPTA13355"
-		prestige = -25
-		war_exhaustion = 5
+		FROM = {
+			badboy = 1
+		}
 	}
 }
 

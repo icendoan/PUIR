@@ -1975,12 +1975,34 @@ country_event = {
 		CHI = {
 			war_exhaustion = 2
 		}
+		ai_chance = {
+			factor = 70
+			modifier = {
+				factor = 200
+				OR = {
+					tag = JAP
+					tag = RUS
+					tag = ENG
+				}
+			}
+		}
 	}
 	
 	option = {
 		name = "EVTOPTA13355"
 		FROM = {
 			badboy = 1
+		}
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 200
+				OR = {
+					tag = CHI
+					tag = BRZ
+					alliance_with = CHI
+				}
+			}
 		}
 	}
 }

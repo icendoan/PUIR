@@ -1968,7 +1968,7 @@ country_event = {
 #	}
 	
 	option = {
-		name = "The Chineese deserved it"
+		name = "The Chinese deserved it"
 		FROM = {
 			badboy = -1
 		}

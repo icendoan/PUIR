@@ -1753,22 +1753,29 @@ political_decisions = {
 	intervene_in_lagos = {
 		picture = map_africa
 		potential = {
-			tag = ENG
+#			tag = ENG
 			slavery = no_slavery
 			is_greater_power = yes
+			total_amount_of_ships = 30
 			NOT = { has_country_flag = lagos_protectorated }
 		}
 		allow = {
-			money = 5000
+			2918 = {
+				country_units_in_province = THIS
+			}
+			money = 50000
 			iron_steamers = 1
-			total_amount_of_ships = 30
+			naval_decision_making = 1
+			total_amount_of_ships = 60
 			war = no
 			1923 = {
 				OR = {
 					empty = yes
 					owner = {
-						civilized = no
-						ai = yes
+						AND = {
+							civilized = no
+							ai = yes
+						}
 					}
 				}
 			}
@@ -1777,11 +1784,11 @@ political_decisions = {
 		effect = {
 			set_country_flag = lagos_protectorated
 			badboy = -0.5
-			treasury = -5000
+			treasury = -10000
 			1923 = { 
-				secede_province = ENG
-				life_rating = 20
-				add_core = OYO
+				secede_province = THIS
+#				life_rating = 20
+#				add_core = OYO
 			}
 		}
 		ai_will_do = {

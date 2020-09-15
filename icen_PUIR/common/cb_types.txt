@@ -2187,6 +2187,7 @@ negotiated_transfer = {
 		number_of_states = 2 # annex if you want their last state
 		is_independant = yes
 		ai = no
+		has_country_flag = will_give_grants
 		THIS = { ai = no } 
 	}
 	

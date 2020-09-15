@@ -66,9 +66,6 @@ political_decisions = {
 		}
 		
 		effect = {
-			any_pop = {
-				money = 2500
-			}
 			add_country_modifier = {
 				name = signed_the_geneva_convention
 				duration = -1

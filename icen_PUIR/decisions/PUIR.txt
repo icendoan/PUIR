@@ -1754,6 +1754,17 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 #			tag = ENG
+			1923 = {
+				OR = {
+					empty = yes
+					owner = {
+						AND = {
+							civilized = no
+							ai = yes
+						}
+					}
+				}
+			}
 			slavery = no_slavery
 			is_greater_power = yes
 			total_amount_of_ships = 30

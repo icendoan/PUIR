@@ -1165,18 +1165,20 @@ political_decisions = {
 			}
 			NOT = { has_country_flag = romanian_dream }
 			OR = {
-				AND = {
+			AND = {
 				tag = MOL
 				NOT = {
+				AND = { 
 					ai = yes
-					WAL = { ai = no }
+					WAL = { ai = no } 
 				}
 				}
-				AND = {
+			}
+			AND = {
 				tag = WAL
 				ai = no
 				MOL = { ai = yes }
-				}
+			}
 			}
 		}
 		
@@ -1214,7 +1216,10 @@ political_decisions = {
 				tag = TUR
 				#tag = ENG
 				#tag = FRA
-				tag = AUS
+				AND = {
+					tag = AUS
+					NOT = { exists = KUK }
+				}
 				tag = KUK
 				#tag = PRU
 				#tag = NGF
@@ -1223,6 +1228,8 @@ political_decisions = {
 				#tag = ITA
 			}
 			NOT = { exists = ROM }
+			exists = MOL
+			exists = WAL
 		}
 		
 		allow = {
@@ -1253,18 +1260,20 @@ political_decisions = {
 	unite_the_principalities = {
 		potential = {
 			OR = {
-				AND = {
+			AND = {
 				tag = MOL
 				NOT = {
+				AND = { 
 					ai = yes
-					WAL = { ai = no }
+					WAL = { ai = no } 
 				}
 				}
-				AND = {
+			}
+			AND = {
 				tag = WAL
 				ai = no
 				MOL = { ai = yes }
-				}
+			}
 			}
 			MOL = {
 			OR = {
@@ -1283,6 +1292,22 @@ political_decisions = {
 				check_variable = {
 				which = unification_count
 				value = 7
+				}
+				check_variable = {
+				which = unification_count
+				value = 8
+				}
+				check_variable = {
+				which = unification_count
+				value = 9
+				}
+				check_variable = {
+				which = unification_count
+				value = 10
+				}
+				check_variable = {
+				which = unification_count
+				value = 11
 				}
 			}
 			}

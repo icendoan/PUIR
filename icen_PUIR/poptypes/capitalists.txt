@@ -64,6 +64,10 @@ country_migration_target =
 		unemployment = 0.1
 	}
 	modifier = {
+		factor = 3.0
+		NOT = { rich_tax = 0.1 }
+	}
+	modifier = {
 		factor = 2.0
 		has_pop_culture = THIS
 		NOT = {

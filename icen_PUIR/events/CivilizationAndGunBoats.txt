@@ -1961,10 +1961,49 @@ country_event = {
 
 	is_triggered_only = yes
 
+#	option = {
+#		name = "EVTOPTA13355"
+#		prestige = -25
+#		war_exhaustion = 5
+#	}
+	
+	option = {
+		name = "The Chinese deserved it"
+		FROM = {
+			badboy = -1
+		}
+		CHI = {
+			war_exhaustion = 2
+		}
+		ai_chance = {
+			factor = 70
+			modifier = {
+				factor = 200
+				OR = {
+					tag = JAP
+					tag = RUS
+					tag = ENG
+				}
+			}
+		}
+	}
+	
 	option = {
 		name = "EVTOPTA13355"
-		prestige = -25
-		war_exhaustion = 5
+		FROM = {
+			badboy = 1
+		}
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 200
+				OR = {
+					tag = CHI
+					tag = BRZ
+					alliance_with = CHI
+				}
+			}
+		}
 	}
 }
 

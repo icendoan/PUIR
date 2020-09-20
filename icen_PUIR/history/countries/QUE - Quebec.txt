@@ -1,14 +1,13 @@
-capital = 57
-primary_culture = anglo_canadian
-culture = french_canadian
-culture = afro_american
-religion = protestant
+capital = 65
+primary_culture = french_canadian
+culture = anglo_canadian
+religion = catholic
 government = hms_government
 plurality = 0.2
-nationalvalue = nv_order
+nationalvalue = nv_equality
 literacy = 0.6
 civilized = yes
-is_releasable_vassal = no
+
 
 # Political reforms
 slavery = no_slavery
@@ -29,17 +28,20 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
-ruling_party = CAN_conservative
+ruling_party = QUE_conservative
 upper_house = {
 	fascist = 0
 	liberal = 35
-	conservative = 50
-	reactionary = 8
-	anarcho_liberal = 7
+	conservative = 55
+	reactionary = 5
+	anarcho_liberal = 5
 	socialist = 0
 	communist = 0
 }
 
+1861.1.1 = {
+	oob = "/1861/QUE_oob.txt"
+}
 1861.1.1 = {
 # Technologies
 

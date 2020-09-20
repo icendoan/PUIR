@@ -651,9 +651,8 @@ ammunition_factory = {
 canned_food_factory = {       
 	template = cheap_military_factory_template
 	input_goods = { 
-		iron = 0.3 		#1
+		wool = 1.8 		#1.8
 		cattle = 3.5 		#7
-		wool = 1		#1
 		grain = 3.5 		#7.7
 		fish = 2.5 		#3.75	total input+maint = 24.2
 	}
@@ -1388,11 +1387,10 @@ artisan_ammunition = {
 
 artisan_canned_food = {       
 	input_goods = { 
-		iron = 0.5 		#1.75
+		iron = 1 		#3.5
 		cattle = 4.5		#9
-		wool = 2		#2
 		grain = 4.5		#9.9
-		fish = 2.5		#3.75	total input+maint = 26.40
+		fish = 2.5		#3.75	total input+maint = 26.15
 	}
 	output_goods = canned_food 
 	value = 3			#30

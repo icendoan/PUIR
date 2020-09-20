@@ -25,6 +25,9 @@ political_decisions = {
 				name = liquor_prohibition
 				duration = -1
 			}
+			any_pop = {
+				money = 5000
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -124,10 +127,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			war_exhaustion = -2
-			any_pop = {
-				money = 5000
-			}
+			war_exhaustion = -5
 			add_country_modifier = {
 				name = female_suffrage
 				duration = -1

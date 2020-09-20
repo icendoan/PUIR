@@ -34,6 +34,76 @@ country_event = {
 			country_event = {id = 100004 days = 0}
 		} 
 	}
+}
+country_event = {
+
+	is_triggered_only = yes
+	id = 100011
+	title = "$FROMCOUNTRY$ Requests Aid"
+	desc = "$FROMCOUNTRY$ has asked we give them a grant. How much should we give?"
+	allow_multiple_instances = yes
+	option = {
+	ai_chance={factor=100}
+	name = "Our money is better spent at home."
+		FROM = { country_event = {id = 100010 days = 0} }
+	
+	}
+	option = {
+	name = "Thousands of Pounds"
+	
+		FROM = {
+			country_event = {id = 100002 days = 0}
+		
+		}
+		ai_chance = {factor = 100} 
+	}
+	
+	option = {
+	name = "Tens of Thousands of Pounds"
+	
+		FROM = {
+			country_event = {id = 100004 days = 0}
+		} 
+	}
+	
+	option = {
+	name = "Hundreds of Thousands of Pounds"
+	
+		FROM = {
+			country_event = {id = 100006 days = 0}
+		} 
+	}
+}
+country_event = {
+
+	is_triggered_only = yes
+	id = 100012
+	title = "$FROMCOUNTRY$ Requests Aid"
+	desc = "$FROMCOUNTRY$ has asked we give them a grant. How much should we give?"
+	allow_multiple_instances = yes
+	option = {
+	ai_chance={factor=100}
+	name = "Our money is better spent at home."
+		FROM = { country_event = {id = 100010 days = 0} }
+	
+	}
+	option = {
+	name = "Thousands of Pounds"
+	
+		FROM = {
+			country_event = {id = 100002 days = 0}
+		
+		}
+		ai_chance = {factor = 100} 
+	}
+	
+	option = {
+	name = "Tens of Thousands of Pounds"
+	
+		FROM = {
+			country_event = {id = 100004 days = 0}
+		} 
+	}
 	
 	option = {
 	name = "Hundreds of Thousands of Pounds"

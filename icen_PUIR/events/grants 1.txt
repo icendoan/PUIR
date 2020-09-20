@@ -30,10 +30,44 @@ country_event = {
 				ai = no
 			
 				money = 10000
+				NOT = { money = 1000000 }
 		
 			}
 		
 			country_event = {id = 100001 days = 0}
+	
+		}	
+		
+		any_country = {
+		
+			limit = {
+			
+				has_country_flag = will_give_grants
+			
+				ai = no
+			
+				money = 1000000
+				NOT = { money = 10000000 }
+		
+			}
+		
+			country_event = {id = 100011 days = 0}
+	
+		}	
+		
+		any_country = {
+		
+			limit = {
+			
+				has_country_flag = will_give_grants
+			
+				ai = no
+			
+				money = 10000000
+		
+			}
+		
+			country_event = {id = 100012 days = 0}
 	
 		}	
 	

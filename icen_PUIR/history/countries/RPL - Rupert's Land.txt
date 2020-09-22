@@ -15,16 +15,16 @@ prestige = 10
 slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
-public_meetings = yes_meeting
+public_meetings = no_meeting
 press_rights = censored_press
-trade_unions = non_socialist
+trade_unions = no_trade_unions
 voting_system = first_past_the_post
 political_parties = underground_parties
 
 # Social Reforms
-wage_reform = trinket_wage
+wage_reform = no_minimum_wage
 work_hours = fourteen_hours
-safety_regulations = trinket_safety
+safety_regulations = no_safety
 health_care = trinket_health_care
 unemployment_subsidies = trinket_subsidies
 pensions = no_pensions

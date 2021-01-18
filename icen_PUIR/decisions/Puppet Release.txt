@@ -236,4 +236,6 @@ political_decisions = {
    gtfo_CHI = { picture = gtfo alert = no potential = { has_country_flag = gtfo CHI = { vassal_of = THIS NOT = { substate_of = THIS } } } allow = { ai = no } effect = { prestige = -400 release_vassal = CHI diplomatic_influence = { who = CHI value = -100 } } }
    gtfo_BNG = { picture = gtfo alert = no potential = { has_country_flag = gtfo BNG = { vassal_of = THIS NOT = { substate_of = THIS } } } allow = { ai = no } effect = { prestige = -150 release_vassal = BNG diplomatic_influence = { who = BNG value = -100 } } }
    gtfo_SIE = { picture = gtfo alert = no potential = { has_country_flag = gtfo SIE = { vassal_of = THIS NOT = { substate_of = THIS } } } allow = { ai = no } effect = { prestige = -20 release_vassal = SIE diplomatic_influence = { who = SIE value = -100 } } }
+   gtfo_BIH = { picture = gtfo alert = no potential = { has_country_flag = gtfo BIH = { vassal_of = THIS NOT = { substate_of = THIS } } } allow = { ai = no } effect = { prestige = -60 release_vassal = BIH diplomatic_influence = { who = BIH value = -100 } } }
+   
 }

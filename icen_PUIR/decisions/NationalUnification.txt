@@ -430,6 +430,9 @@ political_decisions = {
 			RUS_340 = {
 				remove_core = SWE
 			}
+			339 = {
+				remove_core = SWE
+			}
 			prestige = 10
 			any_pop = {
 				militancy = -1

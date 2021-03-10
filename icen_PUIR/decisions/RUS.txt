@@ -71,7 +71,7 @@ political_decisions = {
 			NOT = {
 				has_country_flag = the_manifesto
 			}
-			#nationalism_n_imperialism = 1
+			nationalism_n_imperialism = 1
 		}
 		
 		allow = {
@@ -79,7 +79,7 @@ political_decisions = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
 			}
-			#revolution_n_counterrevolution = 1
+			revolution_n_counterrevolution = 1
 		}
 		
 		effect = {

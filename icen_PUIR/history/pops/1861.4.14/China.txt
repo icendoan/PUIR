@@ -12675,3 +12675,71 @@
 		size = 20
 	}
 }
+#Amoy (X/Y POPS)
+3256 = {
+	aristocrats = {
+		culture = nanfaren
+		religion = mahayana
+		size = 200
+	}
+
+	clergymen = {
+		culture = nanfaren
+		religion = mahayana
+		size = 700
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 1500
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 500
+	}
+
+	soldiers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 1500
+	}
+
+	farmers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 3000
+	}
+
+	aristocrats = {
+		culture = min
+		religion = mahayana
+		size = 100
+	}
+
+	clergymen = {
+		culture = min
+		religion = mahayana
+		size = 500
+	}
+
+	artisans = {
+		culture = min
+		religion = mahayana
+		size = 1500
+	}
+
+	soldiers = {
+		culture = min
+		religion = mahayana
+		size = 2500
+	}
+
+	farmers = {
+		culture = min
+		religion = mahayana
+		size = 4000
+	}
+}

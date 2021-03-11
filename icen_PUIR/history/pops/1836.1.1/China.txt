@@ -6482,36 +6482,36 @@
 		size = 176550
 	}
 }
-#Shanghai (268000/71000 POPS)
+#Shanghai (268000/71000 POPS) + 10k pops
 1538 = {
 	aristocrats = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1300
+		size = 1600
 	}
 
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-		size = 675
+		size = 975
 	}
 
 	artisans = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3350
+		size = 7350
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 675
+		size = 2175
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 61000
+		size = 65000
 	}
 }
 #Suzhou (4968000/1242000 POPS)
@@ -11653,7 +11653,7 @@
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 151975
+		size = 131975
 	}
 
 	aristocrats = {
@@ -12569,5 +12569,73 @@
 		culture = manchu
 		religion = mahayana
 		size = 10
+	}
+}
+#Amoy (X/Y POPS)
+3256 = {
+	aristocrats = {
+		culture = nanfaren
+		religion = mahayana
+		size = 200
+	}
+
+	clergymen = {
+		culture = nanfaren
+		religion = mahayana
+		size = 700
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 1500
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 500
+	}
+
+	soldiers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 1500
+	}
+
+	farmers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 3000
+	}
+
+	aristocrats = {
+		culture = min
+		religion = mahayana
+		size = 100
+	}
+
+	clergymen = {
+		culture = min
+		religion = mahayana
+		size = 500
+	}
+
+	artisans = {
+		culture = min
+		religion = mahayana
+		size = 1500
+	}
+
+	soldiers = {
+		culture = min
+		religion = mahayana
+		size = 2500
+	}
+
+	farmers = {
+		culture = min
+		religion = mahayana
+		size = 4000
 	}
 }

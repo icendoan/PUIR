@@ -63129,9 +63129,14 @@
 
 # Zhangzhou
 1487 = { 
+    unit = { 
+        x = 4637.000000
+        y = 1158.000000
+    } 
+	
     text_position = { 
         x = 4640.399902
-        y = 1154.900024
+        y = 1154.200024
     } 
 
     text_scale = 2.200000
@@ -122708,6 +122713,49 @@
 
     building_rotation = { 
         railroad = 0.838352
+    } 
+
+} 
+
+# Amoy
+3256 = { 
+    text_position = { 
+        x = 4649.509902
+        y = 1162.000024
+    } 
+
+    text_rotation = 0.389791
+    text_scale = 2.200000
+    building_construction = { 
+        x = 4700.000000
+        y = 1250.199951
+    } 
+
+    military_construction = { 
+        x = 4639.000000
+        y = 1153.000000
+    } 
+
+    factory = { 
+        x = 4644.000000
+        y = 1164.099976
+    } 
+
+    building_position = { 
+        fort = { 
+            x = 4651.800000
+            y = 1161.600049
+        } 
+
+        naval_base = { 
+            x = 4650.800000
+            y = 1157.600049
+        } 
+
+    } 
+
+    building_rotation = { 
+        naval_base = 3.752458
     } 
 
 } 

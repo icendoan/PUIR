@@ -857,7 +857,7 @@ CHI_1600 = { 1600 1594 1598 2607 1597 1595 1596 1599 } #Xinjiang
 
 CHI_1578 = { 1578 1580 1582 1585 1586 } #Sichuan
 
-CHI_1601 = { 1601 1506 1602 1603 1505 1507 } #Yunnan
+CHI_1601 = { 1601 1602 1603 } #Yunnan
 
 CHI_1504 = { 1502 1503 1504 1527 1530 } #Guangxi
 
@@ -867,11 +867,11 @@ CHI_1496 = { 1496 1498 } #Hong Kong and Macao
 
 CHI_1532 = { 1532 1535 1534 } #Inner Mongolia
 
-CHI_1553 = { 1002 1533 1553 1554 1552 1555  1479 1480 } #Outer Manchuria
+CHI_1553 = { 1554 1555 1533 1479 1480 } #Outer Manchuria
 
 CHI_1563 = { 1565 1567 1571 } #Shandong
 
-CHI_1618 = { 1612 1618 1613 1616 1617 1615 1570 } #Northern Zhili
+CHI_1618 = { 1612 1618 1616 1617 1615 1570 } #Northern Zhili
 
 CHI_1614 = { 1614 1564 1563 1568 } #Southern Zhili
 
@@ -887,19 +887,19 @@ CHI_1581 = { 1581 1579 1577 1583 1584 } #Chongqing
 
 CHI_1499 = { 1493 1500 1494 1495 1497 1501 } #Guangdong
 
-CHI_1487 = { 1487 1484 1486 1482 1483 } #Fujian
+CHI_1487 = { 1482 1487 1484 1486 1483 } #Fujian
 
 CHI_1611 = { 1611 1607 1610 1609 1604 1605 } #Zhejiang
 
-CHI_1539 = { 2221 1539 1477 1537 1544 } #Suzhou
+CHI_1539 = { 1539 1537 1540 } #Suzhou
 
-CHI_1476 = { 1476 1477 1536 1540 1541 1542 1543 } #Jiangsu
+CHI_1476 = { 1476 1536 1541 1542 1543 } #Jiangsu
 
 CHI_1513 = { 1513 1510 1508 1511 1515 1514} #Henan
 
-CHI_1550 = { 1550 1547 1548 1545 1549 1551 1546 } #Jiangxi
+CHI_1550 = { 1545 1548 1549 1551 1546 } #Northern Jiangxi
 
-CHI_1473 = { 1473 1475 1471 1470 1474 } #Southern Anhui
+CHI_1473 = { 1473 1471 1470 1474 } #Southern Anhui
 
 CHI_1472 = { 1472 1478 1512 1509 } #Northern Anhui
 
@@ -910,6 +910,16 @@ CHI_1516 = { 1516 1518 1522 1517 } #Eastern Hubei
 CHI_1529 = { 1529 1526 1525 1528 1524 } #Hunan
 
 CHI_2562 = { 2562 1485} #Taiwan
+
+CHI_1554 = { 1002 1553 1552 } #Heilongjiang
+
+CHI_1619 = { 1613 } #Rehe
+
+CHI_3245 = { 1550 1547 } #Southern Jiangxi
+
+CHI_3246 = { 2221 1477 1544 1475 } #Jiangnan
+
+CHI_3247 = { 1505 1506 1507 } #Guizhou
 
 RUS_340 = { 343 340 344 345 346 347 348 339 } #Southern Finland
 
@@ -1518,6 +1528,8 @@ CHI_1608 = { 1608 } #Ningbo
 CHI_1501 = { 1499 } #Hainan
 
 CHI_3249 = { 3249 } #Guangzhouwan
+
+CHI_3248 = { 3256 } #Amoy
 
 #North America
 

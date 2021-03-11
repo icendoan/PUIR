@@ -83,6 +83,7 @@ political_decisions = {
 				consciousness = 5
 			}			
 			add_accepted_culture = hungarian
+			remove_accepted_culture = north_german
 			change_tag = KUK
 			set_country_flag = dual_monarchy_done
 		}

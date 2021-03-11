@@ -30,7 +30,7 @@ country_event = {
 				ai = no
 			
 				money = 10000
-				NOT = { money = 1000000 }
+				NOT = { money = 500000 }
 		
 			}
 		
@@ -47,7 +47,7 @@ country_event = {
 				ai = no
 			
 				money = 500000
-				NOT = { money = 10000000 }
+				NOT = { money = 2000000 }
 		
 			}
 		
@@ -64,6 +64,7 @@ country_event = {
 				ai = no
 			
 				money = 2000000
+				NOT = { money = 6000000 }
 		
 			}
 		

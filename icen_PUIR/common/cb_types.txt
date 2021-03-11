@@ -993,7 +993,7 @@ liberate_country = {
 							tag = SCA
 							tag = ITA
 							tag = YUG
-							#tag = ROM # TODO: shoudl we let the rest be liberated too?
+							#tag = ROM # TODO: should we let the rest be liberated too?
 							tag = CZH
 						}
 					}
@@ -2119,6 +2119,8 @@ acquire_treaty_port = {
 		tag = CHI
 		number_of_states = 2
 		OR = { 
+			owns = 1496
+			owns = 1498
 			owns = 1566
 			owns = 1569
 			owns = 1481
@@ -2126,15 +2128,18 @@ acquire_treaty_port = {
 			owns = 1606
 			owns = 1608
 			owns = 3249
+			owns = 3256
 		}
 	}
-	
+
 	allowed_states = {
 		any_owned_province = {
 			is_colonial = no
 		}
 		any_owned_province = {
 			OR = {
+				province_id = 1496
+				province_id = 1498
 				province_id = 1566
 				province_id = 1569
 				province_id = 1481
@@ -2142,6 +2147,7 @@ acquire_treaty_port = {
 				province_id = 1606
 				province_id = 1608
 				province_id = 3249
+				province_id = 3256
 			}
 		}
 		not = { any_owned_province = { is_capital = yes } }

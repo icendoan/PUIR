@@ -64,7 +64,10 @@ political_decisions = {
 	manifesto_on_unshakable_autocracy = {
 		potential = {
 			tag = RUS
-			government = absolute_monarchy
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+			}
 			NOT = {
 				has_country_flag = the_manifesto
 			}
@@ -72,17 +75,25 @@ political_decisions = {
 		}
 		
 		allow = {
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+			}
 			revolution_n_counterrevolution = 1
 		}
 		
 		effect = {
 			prestige = 5
-			badboy = 3
+			badboy = 2.5
 			any_pop = {
 				consciousness = -0.5
 				militancy = -0.5
 			}
 			set_country_flag = the_manifesto
+			upper_house = {
+				ideology = reactionary
+				value = 0.8
+			}
 		}
 	}
 	
@@ -110,7 +121,7 @@ political_decisions = {
 				limit = {
 					has_pop_culture = ukrainian
 				}
-				militancy = 3
+				militancy = 2 #3
 				consciousness = -2
 			}
 			set_country_flag = ems_ukaz_dispatched

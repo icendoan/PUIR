@@ -1473,16 +1473,17 @@ political_decisions = {
 	complete_circassian_pacification = {
 		potential = {
 			tag = RUS
-			exists = CIR
+			#exists = CIR
 			NOT = { has_country_flag = circassian_campaign }
 			NOT = { has_country_flag = RUS1861start }
-			RUS = { owns = 1050 } #Stavropol
+			#RUS = { owns = 1050 } #Stavropol
 		}
 		
 		allow = {
 			army_decision_making = 1
 			nationalism_n_imperialism = 1
 			RUS = { owns = 1049 } #Novorossiysk
+			Not = { exists = CIR }
 		}
 
 		effect = {
@@ -1508,7 +1509,7 @@ political_decisions = {
 				with = ENG
 				value = -25
 			}
-			badboy = 4
+			#badboy = 4
 		}
 		ai_will_do = {
 			factor = 1
